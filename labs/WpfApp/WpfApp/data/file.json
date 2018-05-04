@@ -1,0 +1,32 @@
+[
+  {
+    "Attention": 32,
+    "ComputingSpeed": 100,
+    "Faculty": "FPM",
+    "Nickname": "Dmytro"
+  },
+  {
+    "Attention": 56,
+    "ComputingSpeed": 98,
+    "Faculty": "FTI",
+    "Nickname": "Valera"
+  },
+  {
+    "Attention": 45,
+    "ComputingSpeed": 13,
+    "Faculty": "IASA",
+    "Nickname": "Nikita"
+  },
+  {
+    "Attention": 99,
+    "ComputingSpeed": 45,
+    "Faculty": "FL",
+    "Nickname": "Polina"
+  },
+  {
+    "Attention": 89,
+    "ComputingSpeed": 47,
+    "Faculty": "FMM",
+    "Nickname": "Dasha"
+  }
+]

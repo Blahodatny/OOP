@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfMathematician xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Mathematician>
+    <Faculty>FPM</Faculty>
+    <Nickname>Dmytro</Nickname>
+    <ComputingSpeed>1003</ComputingSpeed>
+    <Attention>32</Attention>
+  </Mathematician>
+  <Mathematician>
+    <Faculty>FTI</Faculty>
+    <Nickname>Valera</Nickname>
+    <ComputingSpeed>988</ComputingSpeed>
+    <Attention>56</Attention>
+  </Mathematician>
+  <Mathematician>
+    <Faculty>IASA</Faculty>
+    <Nickname>Nikita</Nickname>
+    <ComputingSpeed>1345</ComputingSpeed>
+    <Attention>45</Attention>
+  </Mathematician>
+  <Mathematician>
+    <Faculty>FL</Faculty>
+    <Nickname>Polina</Nickname>
+    <ComputingSpeed>456</ComputingSpeed>
+    <Attention>99</Attention>
+  </Mathematician>
+  <Mathematician>
+    <Faculty>FMM</Faculty>
+    <Nickname>Dasha</Nickname>
+    <ComputingSpeed>476</ComputingSpeed>
+    <Attention>89</Attention>
+  </Mathematician>
+</ArrayOfMathematician>

@@ -1,0 +1,16 @@
+/home/dima/projects/repo/C#/labs/lab3/bin/Debug/lab3.exe
+/home/dima/projects/repo/C#/labs/lab3/bin/Debug/lab3.pdb
+/home/dima/projects/repo/C#/labs/lab3/obj/Debug/lab3.csprojResolveAssemblyReference.cache
+/home/dima/projects/repo/C#/labs/lab3/obj/Debug/lab3.csproj.CoreCompileInputs.cache
+/home/dima/projects/repo/C#/labs/lab3/obj/Debug/lab3.exe
+/home/dima/projects/repo/C#/labs/lab3/obj/Debug/lab3.pdb
+/home/dima/projects/repo/C#/labs/lab3/bin/Debug/lab1.exe
+/home/dima/projects/repo/C#/labs/lab3/bin/Debug/lab1.pdb
+/home/dima/C#/labs/lab3/bin/Debug/lab3.exe
+/home/dima/C#/labs/lab3/bin/Debug/lab3.pdb
+/home/dima/C#/labs/lab3/bin/Debug/lab1.exe
+/home/dima/C#/labs/lab3/bin/Debug/lab1.pdb
+/home/dima/C#/labs/lab3/obj/Debug/lab3.csprojResolveAssemblyReference.cache
+/home/dima/C#/labs/lab3/obj/Debug/lab3.csproj.CoreCompileInputs.cache
+/home/dima/C#/labs/lab3/obj/Debug/lab3.exe
+/home/dima/C#/labs/lab3/obj/Debug/lab3.pdb

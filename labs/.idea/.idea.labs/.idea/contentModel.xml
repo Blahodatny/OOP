@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_labs.-1958798263.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="lab1" t="IncludeRecursive">
+        <e p="Human.cs" t="Include" />
+        <e p="Kind_of_activity" t="Include">
+          <e p="Scientist.cs" t="Include" />
+          <e p="Sportsman.cs" t="Include" />
+        </e>
+        <e p="Persons" t="Include">
+          <e p="Kicker.cs" t="Include" />
+          <e p="Mathematician.cs" t="Include" />
+          <e p="Swimmer.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="lab1.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="lab2" t="IncludeRecursive">
+        <e p="ActionPerformedEventArgs.cs" t="Include" />
+        <e p="BaseAbstractClass.cs" t="Include" />
+        <e p="Enumerations" t="Include">
+          <e p="EAction.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="ISportsmanProperties.cs" t="Include" />
+          <e p="ISwimmerActions.cs" t="Include" />
+          <e p="ISwimmerEvents.cs" t="Include" />
+        </e>
+        <e p="InvalidSwimSpeedExc.cs" t="Include" />
+        <e p="Persons" t="Include">
+          <e p="ActionPerformedHandler.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="Swimmer.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="lab2.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="lab3" t="IncludeRecursive">
+        <e p="Interfaces" t="Include">
+          <e p="IMathematicianOperations.cs" t="Include" />
+          <e p="IMathematicianProperties.cs" t="Include" />
+        </e>
+        <e p="Persons" t="Include">
+          <e p="Mathematician.cs" t="Include" />
+          <e p="MathematicianExt.cs" t="Include" />
+          <e p="_anonymous_methods" t="Include">
+            <e p="Mathematician.cs" t="Include" />
+          </e>
+          <e p="_delegate" t="Include">
+            <e p="Mathematician.cs" t="Include" />
+            <e p="OperationDelegate.cs" t="Include" />
+          </e>
+          <e p="_lambda_expression" t="Include">
+            <e p="Mathematician.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Serialization" t="Include">
+          <e p="JSON" t="Include">
+            <e p="Json.cs" t="Include" />
+          </e>
+          <e p="XML" t="Include">
+            <e p="Xml.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="data" t="Include">
+          <e p="file.json" t="Include" />
+          <e p="file.xml" t="Include" />
+          <e p="hello.txt" t="Include" />
+        </e>
+        <e p="lab3.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="lab4" t="IncludeRecursive">
+        <e p="Mather.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="lab4.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="labs.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
