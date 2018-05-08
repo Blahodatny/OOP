@@ -20,14 +20,14 @@ namespace lab1
             Console.WriteLine("Static constructor Human() was generated at {0}", DateTime.Now.ToLongTimeString());
             Quantity = 0;
         }
-        
+
         // default constructor
         public Human()
         {
             Console.WriteLine("Constructor Human() by default was called at {0}", DateTime.Now.ToLongTimeString());
             Quantity++;
         }
-        
+
         // auto-generated constructor
         protected Human(double weight, int age, string name, Image image)
         {
@@ -53,7 +53,7 @@ namespace lab1
                 throw;
             }
         }
-        
+
         // redefined constructor
         public Human(double weight, int age, string name, string fileName)
         {
@@ -69,7 +69,7 @@ namespace lab1
         {
             throw new ArgumentException("The " + field + " is not valid!!!");
         }
-        
+
         public double Weight
         {
             get => _weight;
@@ -117,7 +117,8 @@ namespace lab1
                 else
                 {
                     Error("name");
-                    Console.Error.WriteLine("The value should begin with an uppercase letter and contain 30 symbols as maximum");
+                    Console.Error.WriteLine(
+                        "The value should begin with an uppercase letter and contain 30 symbols as maximum");
                 }
             }
         }
@@ -125,15 +126,16 @@ namespace lab1
         // Если член класса объявляется как static, то он становится доступным до создания любых объектов
         // своего класса и без ссылки на какой-нибудь объект.
         public static int Quantity { get; private set; }
-        
+
         public virtual void ShowObject()
         {
             Console.WriteLine(name + " has parameters: weight " + _weight + "; age " + _age);
         }
-        
+
         public void ShowObject(string line)
         {
-            Console.WriteLine(name + " has parameters: weight " + _weight + "; age " + _age + ". And your line is:\n" + line);
+            Console.WriteLine(name + " has parameters: weight " + _weight + "; age " + _age + ". And your line is:\n" +
+                              line);
         }
     }
 }

@@ -9,23 +9,23 @@ namespace lab3.Persons._anonymous_methods
     public class Mathematician : Scientist, IMathematicianProperties
     {
         private readonly Dictionary<string, OperationDelegate> _operations;
-        
+
         public Mathematician(int computingSpeed, int attention)
         {
             ComputingSpeed = computingSpeed;
             Attention = attention;
             _operations = new Dictionary<string, OperationDelegate>
             {
-                { "+", delegate(double x, double y) { return x + y; } },
-                { "-", delegate(double x, double y) { return x - y; } },
-                { "*", delegate(double x, double y) { return x * y; } },
-                { "/", delegate(double x, double y) { return x / y; } }
+                {"+", delegate(double x, double y) { return x + y; }},
+                {"-", delegate(double x, double y) { return x - y; }},
+                {"*", delegate(double x, double y) { return x * y; }},
+                {"/", delegate(double x, double y) { return x / y; }}
             };
         }
 
         public int ComputingSpeed { get; set; }
         public int Attention { get; set; }
-        
+
         public double PerformOperation(string op, double x, double y)
         {
             if (!_operations.ContainsKey(op))

@@ -11,13 +11,15 @@ namespace lab1.Persons
             Attention = attention;
         }
 
-        public Mathematician(string academicRank, string faculty, int computingSpeed, int attention) : base(academicRank, faculty)
+        public Mathematician(string academicRank, string faculty, int computingSpeed, int attention) : base(
+            academicRank, faculty)
         {
             ComputingSpeed = computingSpeed;
             Attention = attention;
         }
 
-        public Mathematician(double weight, int age, string name, Image image, string academicRank, string faculty, int computingSpeed, int attention) : base(weight, age, name, image, academicRank, faculty)
+        public Mathematician(double weight, int age, string name, Image image, string academicRank, string faculty,
+            int computingSpeed, int attention) : base(weight, age, name, image, academicRank, faculty)
         {
             ComputingSpeed = computingSpeed;
             Attention = attention;

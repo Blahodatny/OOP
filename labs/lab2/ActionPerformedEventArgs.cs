@@ -10,7 +10,7 @@ namespace lab2
             Seconds = seconds;
             Action = action;
         }
-        
+
         public int Seconds { get; }
 
         public EAction Action { get; }

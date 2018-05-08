@@ -12,13 +12,31 @@ namespace lab2
             var swimmer1 = new Swimmer(80, "Swimming", 70);
             swimmer.ActionPerformed += swimmer1.CheckWorking;
             swimmer1.ActionPerformed += swimmer.CheckWorking;
-            
+
             while (true)
             {
                 try
                 {
-                    Console.WriteLine("Please, enter the time during action will be performing:");
-                    var time = int.Parse(Console.ReadLine());
+                    Console.WriteLine("\nPlease, enter the time during action will be performing:");
+                    var str = Console.ReadLine();
+                    var time = 0;
+                    var boolean = true;
+                    while (str != null)
+                    {
+                        try
+                        {
+                            time = int.Parse(str);
+                            str = null;
+                        }
+                        catch (Exception)
+                        {
+                            if (boolean)
+                                Console.WriteLine("Please, re-enter the time during action will be performing:");
+                            boolean = !boolean;
+                            str = Console.ReadLine();
+                        }
+                    }
+
                     Console.ReadKey();
                     Console.WriteLine("Please, enter an action you want to perform:");
                     var action = Console.ReadLine();
@@ -41,8 +59,8 @@ namespace lab2
                             return;
                         default:
                             Console.WriteLine("There is no such command!");
-                            break;      
-                    } 
+                            break;
+                    }
                 }
 
                 catch (InvalidSwimSpeedExc e)
@@ -50,7 +68,7 @@ namespace lab2
                     Console.WriteLine("Custom exception:" + e);
                     throw;
                 }
-                
+
                 catch (Exception e)
                 {
                     Console.WriteLine(e);

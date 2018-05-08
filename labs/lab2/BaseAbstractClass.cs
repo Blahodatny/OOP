@@ -11,7 +11,7 @@ namespace lab2
 
         protected abstract Image LoadImage(string filename);
         protected abstract void Error(string field);
-        
+
         public abstract double Weight { get; set; }
         public abstract int Age { get; set; }
         public abstract string Name { get; set; }

@@ -6,10 +6,10 @@ namespace lab4
 {
     public sealed class Mather : IDisposable
     {
-        private const string Path = @"/home/dima/C#/labs/lab3/data/hello.txt";
+        private static readonly string Path = Directory.GetCurrentDirectory() + "/../../../lab3/data/hello.txt";
         private bool _disposed; // to detect redundant calls
         private readonly Stream _stream;
-        
+
         public Mather(string faculty, string nickname, int computingSpeed, int attention)
         {
             _stream = new FileStream(Path, FileMode.Open, FileAccess.Read, FileShare.None);
@@ -22,7 +22,7 @@ namespace lab4
             var bytes = new byte[10];
             var encoding = new UTF8Encoding(true);
             int len;
-                
+
             // Read on stream and asign to temporary array
             // Returns the number of bytes read
             while ((len = _stream.Read(bytes, 0, bytes.Length)) > 0)
@@ -31,7 +31,7 @@ namespace lab4
                 var s = encoding.GetString(bytes, 0, len);
                 Console.WriteLine(s);
             }
-            
+
             // Синтаксис C# также предлагает синонимичную конструкцию для автоматического вызова метод Dispose - конструкцию using
 //            using (_stream = new FileStream(Path, FileMode.Open))
 //            {
@@ -58,6 +58,7 @@ namespace lab4
                 // Освобождаем управляемые ресурсы
                 _stream?.Dispose();
             }
+
             // Освобождаем неуправляемые ресурсы
             _disposed = true;
         }

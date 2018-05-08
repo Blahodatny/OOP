@@ -18,9 +18,10 @@
                     fastest = math;
                 }
             }
+
             return fastest;
         }
-        
+
         // Содержательные имена
         // Роберт Мартин "Чистый код" стр. 349
         public static Mathematician GetMostAttentiveMathematician(this Mathes mathes)
@@ -33,6 +34,7 @@
                     atten = math;
                 }
             }
+
             return atten;
         }
     }

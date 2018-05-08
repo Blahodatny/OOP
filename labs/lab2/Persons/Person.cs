@@ -21,12 +21,12 @@ namespace lab2.Persons
                 throw;
             }
         }
-        
+
         protected override void Error(string field)
         {
             throw new ArgumentException("The " + field + " is not valid!!!");
         }
-        
+
         public override double Weight
         {
             get => _weight;
@@ -74,7 +74,8 @@ namespace lab2.Persons
                 else
                 {
                     Error("_name");
-                    Console.Error.WriteLine("The value should begin with an uppercase letter and contain 30 symbols as maximum");
+                    Console.Error.WriteLine(
+                        "The value should begin with an uppercase letter and contain 30 symbols as maximum");
                 }
             }
         }
@@ -84,15 +85,16 @@ namespace lab2.Persons
             get => _image;
             set => _image = value;
         }
-        
+
         public override void ShowObject()
         {
             Console.WriteLine(_name + " has parameters: weight " + _weight + "; age " + _age);
         }
-        
+
         public override void ShowObject(string line)
         {
-            Console.WriteLine(_name + " has parameters: weight " + _weight + "; age " + _age + ". And your line is:\n" + line);
+            Console.WriteLine(_name + " has parameters: weight " + _weight + "; age " + _age + ". And your line is:\n" +
+                              line);
         }
     }
 }

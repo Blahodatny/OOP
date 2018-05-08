@@ -9,15 +9,18 @@ namespace lab1.Persons
         {
         }
 
-        public Swimmer(int stamina, string kindOfSport, int breathingSpeed, double swimmedDistance) : base(stamina, kindOfSport)
+        public Swimmer(int stamina, string kindOfSport, int breathingSpeed, double swimmedDistance) : base(stamina,
+            kindOfSport)
         {
         }
 
-        public Swimmer(double weight, int age, string name, Image image, int stamina, string kindOfSport, int breathingSpeed, double swimmedDistance) : base(weight, age, name, image, stamina, kindOfSport)
+        public Swimmer(double weight, int age, string name, Image image, int stamina, string kindOfSport,
+            int breathingSpeed, double swimmedDistance) : base(weight, age, name, image, stamina, kindOfSport)
         {
         }
 
-        public Swimmer(double weight, int age, string name, string fileName, int stamina, string kindOfSport, int breathingSpeed, double swimmedDistance) : base(weight, age, name, fileName, stamina, kindOfSport)
+        public Swimmer(double weight, int age, string name, string fileName, int stamina, string kindOfSport,
+            int breathingSpeed, double swimmedDistance) : base(weight, age, name, fileName, stamina, kindOfSport)
         {
         }
     }

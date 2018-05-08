@@ -16,10 +16,10 @@ namespace lab2.Persons
         {
             SwimmingSpeed = swimmingSpeed;
         }
-        
+
         // Property implementation
         public int OvercomeDistance => _overcomeDistance;
-        
+
         public int SwimmingSpeed
         {
             get
@@ -34,25 +34,25 @@ namespace lab2.Persons
                     Console.WriteLine("Setting swimming speed to the swimmer...");
                     _swimmingSpeed = value;
                 }
-                
+
                 else
                 {
                     throw new InvalidSwimSpeedExc("The value should be >= 0! && < 100");
                 }
             }
         }
-        
+
         public string KindOfSport
         {
             get
             {
                 Console.WriteLine("Getting kind of sport of the swimmer...");
-                return kindOfSport;
+                return base.KindOfSport;
             }
             set
             {
                 Console.WriteLine("Setting kind of sport to the swimmer...");
-                kindOfSport = value;
+                base.KindOfSport = value;
             }
         }
 
@@ -77,12 +77,13 @@ namespace lab2.Persons
                 {
                     _overcomeDistance = _overcomeDistance + _swimmingSpeed * seconds;
                 }
+
                 Console.WriteLine("Performing action: " + action + "...");
                 Thread.Sleep(seconds * 1000);
                 Console.WriteLine("Done: overcome distance at the moment equals: " + _overcomeDistance);
                 OnActionPerformed(seconds, action);
             }
-            
+
             else
             {
                 Console.WriteLine("Nothing can be performed. The swimmer is over.");

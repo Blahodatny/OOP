@@ -6,7 +6,9 @@ namespace lab3.Persons
 {
     public class Mathematician : IComparable
     {
-        public Mathematician(){}
+        public Mathematician()
+        {
+        }
 
         public Mathematician(string faculty, string nickname, int computingSpeed, int attention)
         {
@@ -20,14 +22,15 @@ namespace lab3.Persons
         {
             ComputingSpeed = computingSpeed;
         }
-        
+
         // Инкапсуляция поля (Encapsulate Field) - правило рефакторинга
         public string Faculty { get; set; }
         public string Nickname { get; set; }
         public int ComputingSpeed { get; set; }
+
         public int Attention { get; set; }
         // Спуск поля/метода (Push Down) - правило рефакторинга
-        
+
         public int CompareTo(object obj)
         {
             switch (obj)
@@ -41,7 +44,7 @@ namespace lab3.Persons
             throw new ArgumentException("Object is not a Mathematician!!!");
         }
     }
-    
+
     // Collection of Mathematician objects
     // This class implements IEnumerable so that it can be used with ForEach syntax
 
@@ -76,12 +79,12 @@ namespace lab3.Persons
             return new MathesEnum(Mathematicians);
         }
     }
-    
+
     // When you implement IEnumerable, you must also implement IEnumerator
     public class MathesEnum : IEnumerator
     {
         private readonly List<Mathematician> _mathematicians;
-        
+
         // Enumerators are positioned before the first element until the first MoveNext() call.
         private int _position = -1;
 

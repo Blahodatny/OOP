@@ -8,28 +8,43 @@ namespace lab3.Persons._delegate
     public class Mathematician : Scientist, IMathematicianProperties, IMathematicianOperations
     {
         private readonly Dictionary<string, OperationDelegate> _operations;
-        
+
         public Mathematician(int computingSpeed, int attention)
         {
             ComputingSpeed = computingSpeed;
             Attention = attention;
             _operations = new Dictionary<string, OperationDelegate>
             {
-                { "+", DoAddition },
-                { "-", DoSubtraction },
-                { "*", DoMultiplication },
-                { "/", DoDivision }
+                {"+", DoAddition},
+                {"-", DoSubtraction},
+                {"*", DoMultiplication},
+                {"/", DoDivision}
             };
         }
 
         public int ComputingSpeed { get; set; }
         public int Attention { get; set; }
 
-        public double DoDivision(double x, double y) { return x / y; }
-        public double DoMultiplication(double x, double y) { return x * y; }
-        public double DoSubtraction(double x, double y) { return x - y; }
-        public double DoAddition(double x, double y) { return x + y; }
-        
+        public double DoDivision(double x, double y)
+        {
+            return x / y;
+        }
+
+        public double DoMultiplication(double x, double y)
+        {
+            return x * y;
+        }
+
+        public double DoSubtraction(double x, double y)
+        {
+            return x - y;
+        }
+
+        public double DoAddition(double x, double y)
+        {
+            return x + y;
+        }
+
         public double PerformOperation(string op, double x, double y)
         {
             if (!_operations.ContainsKey(op))

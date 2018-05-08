@@ -21,7 +21,7 @@ namespace lab3.Serialization.XML
             using (var fs = new FileStream(path, FileMode.OpenOrCreate))
             {
                 Console.WriteLine($"XML file {path} has been deserialized!!!");
-                return (List<T>)new XmlSerializer(typeof(List<T>)).Deserialize(fs);
+                return (List<T>) new XmlSerializer(typeof(List<T>)).Deserialize(fs);
             }
         }
     }
