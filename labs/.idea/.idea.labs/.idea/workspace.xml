@@ -3,63 +3,69 @@
   <component name="ChangeListManager">
     <list default="true" id="07e05d7e-0711-49c6-9b2a-787473d89f1c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.labs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.labs/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.labs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.labs/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.labs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.labs/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/bin/Debug/lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/bin/Debug/lab1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/bin/Debug/lab1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/bin/Debug/lab1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/obj/Debug/lab1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/obj/Debug/lab1.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/obj/Debug/lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/obj/Debug/lab1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/obj/Debug/lab1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/obj/Debug/lab1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/bin/Debug/lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/bin/Debug/lab1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/bin/Debug/lab1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/bin/Debug/lab1.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/bin/Debug/lab2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/bin/Debug/lab2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/bin/Debug/lab2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/bin/Debug/lab2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/obj/Debug/lab2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/obj/Debug/lab2.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/obj/Debug/lab2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/obj/Debug/lab2.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/obj/Debug/lab2.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/obj/Debug/lab2.csprojResolveAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/obj/Debug/lab2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/obj/Debug/lab2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab2/obj/Debug/lab2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/obj/Debug/lab2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/bin/Debug/lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/bin/Debug/lab1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/bin/Debug/lab1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/bin/Debug/lab1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/bin/Debug/lab3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/bin/Debug/lab3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/bin/Debug/lab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/bin/Debug/lab3.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/obj/Debug/lab3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/obj/Debug/lab3.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/obj/Debug/lab3.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/obj/Debug/lab3.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/obj/Debug/lab3.csprojResolveAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/obj/Debug/lab3.csprojResolveAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/obj/Debug/lab3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/obj/Debug/lab3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/obj/Debug/lab3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/obj/Debug/lab3.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/bin/Debug/lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/bin/Debug/lab4.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/bin/Debug/lab4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/bin/Debug/lab4.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/obj/Debug/lab4.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/obj/Debug/lab4.exe" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/obj/Debug/lab4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/obj/Debug/lab4.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labs.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/labs.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="466636639">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="labs" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Mather.cs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab4/Mather.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="67">
               <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+              <folding>
+                <marker date="1526211385221" expanded="false" signature="6:49" ph="..." />
+                <marker date="1526211385221" expanded="true" signature="65:2377" ph="{...}" />
+                <marker date="1526211385221" expanded="true" signature="112:2375" ph="{...}" />
+                <marker date="1526211385221" expanded="true" signature="424:536" ph="{...}" />
+                <marker date="1526211385221" expanded="true" signature="579:1929" ph="{...}" />
+                <marker date="1526211385221" expanded="true" signature="602:703" ph="/* Create Stream object via constructor of FileStream ... */" />
+                <marker date="1526211385221" expanded="true" signature="827:921" ph="/* Read on stream and asign to temporary array ... */" />
+                <marker date="1526211385221" expanded="true" signature="990:1153" ph="{...}" />
+                <marker date="1526211385221" expanded="true" signature="1167:1919" ph="/* Синтаксис C## также предлагает синонимичную конструкцию для автоматического вызова метод Dispose - конструкцию  ... */" />
+                <marker date="1526211385221" expanded="true" signature="1975:2252" ph="{...}" />
+                <marker date="1526211385221" expanded="true" signature="2047:2162" ph="{...}" />
+                <marker date="1526211385221" expanded="true" signature="2283:2369" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab4/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="1008">
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding>
                 <marker date="1526211385221" expanded="true" signature="29:1634" ph="{...}" />
                 <marker date="1526211385221" expanded="true" signature="65:1632" ph="{...}" />
@@ -88,20 +94,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/lab2/Persons/ActionPerformedHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab4/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab2/Persons/Person.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab2/Persons/Swimmer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab2/Interfaces/ISwimmerEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab2/Interfaces/ISwimmerActions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab4/Mather.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab2/Interfaces/ISportsmanProperties.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab2/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab2/Enumerations/EAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab4/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab3/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab1/Human.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/lab1/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lab1/Persons/Kicker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lab3/data/file.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lab1/Persons/Mathematician.cs" root0="FORCE_HIGHLIGHTING" />
@@ -124,6 +116,20 @@
     <setting file="file://$PROJECT_DIR$/lab3/Serialization/XML/Xml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lab2/ActionPerformedEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/lab3/Serialization/JSON/Json.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab2/Persons/ActionPerformedHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab4/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab2/Persons/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab2/Persons/Swimmer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab2/Interfaces/ISwimmerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab2/Interfaces/ISwimmerActions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab4/Mather.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab2/Interfaces/ISportsmanProperties.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab2/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab2/Enumerations/EAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab4/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab3/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab1/Human.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lab1/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -208,24 +214,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="labs (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="labs" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="labs" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="lab1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="labs" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="lab1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Kind_of_activity" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
+        <option name="show-all-files" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/WpfApp/WpfApp.sln" />
@@ -252,12 +269,16 @@
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab1/lab1.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
     </configuration>
     <configuration name="lab2" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/lab2/bin/Debug/lab2.exe" />
@@ -266,12 +287,16 @@
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab2/lab2.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
     </configuration>
     <configuration name="lab3" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/lab3/bin/Debug/lab3.exe" />
@@ -280,12 +305,16 @@
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab3/lab3.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
     </configuration>
     <configuration name="lab4" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/lab4/bin/Debug/lab4.exe" />
@@ -294,12 +323,16 @@
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab4/lab4.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
     </configuration>
     <configuration name="lab5" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/lab5/bin/Debug/lab5.exe" />
@@ -308,12 +341,16 @@
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab5/lab5.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue=".NET Project.lab4" />
@@ -391,11 +428,13 @@
       <workItem from="1525815706463" duration="2782000" />
       <workItem from="1526211558182" duration="197000" />
       <workItem from="1526212576477" duration="160000" />
+      <workItem from="1527247491884" duration="66000" />
+      <workItem from="1535902164360" duration="90000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170959000" />
+    <option name="totallyTimeSpent" value="171115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,35 +448,36 @@
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.485623" visible="true" weight="0.18089648" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.514377" side_tool="true" weight="0.17239584" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6542156" weight="0.2627027" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997879" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290735" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.34525082" side_tool="true" visible="true" weight="0.2646421" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.3290735" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6547492" weight="0.2635575" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.34578443" side_tool="true" visible="true" weight="0.32756758" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290735" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="NuGet" order="10" weight="0.2428115" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.485623" visible="true" weight="0.17662753" />
+      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49893278" weight="0.32756758" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.3290735" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49947917" weight="0.32804233" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997879" />
-      <window_info id="Favorites" order="2" sideWeight="0.514377" side_tool="true" weight="0.17239584" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -448,24 +488,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab3/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab3/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab5/Program.cs" />
     <entry file="file://$PROJECT_DIR$/labs.sln">
       <provider selected="true" editor-type-id="text-editor">
@@ -723,17 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab4/Mather.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab4/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="1008">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding>
             <marker date="1526211385221" expanded="true" signature="29:1634" ph="{...}" />
             <marker date="1526211385221" expanded="true" signature="65:1632" ph="{...}" />
@@ -743,6 +767,27 @@
             <marker date="1526211385221" expanded="true" signature="681:808" ph="/* Determine the best available approximation of the number ... */" />
             <marker date="1526211385221" expanded="true" signature="1420:1616" ph="{...}" />
             <marker date="1526211385221" expanded="true" signature="1470:1602" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab4/Mather.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding>
+            <marker date="1526211385221" expanded="false" signature="6:49" ph="..." />
+            <marker date="1526211385221" expanded="true" signature="65:2377" ph="{...}" />
+            <marker date="1526211385221" expanded="true" signature="112:2375" ph="{...}" />
+            <marker date="1526211385221" expanded="true" signature="424:536" ph="{...}" />
+            <marker date="1526211385221" expanded="true" signature="579:1929" ph="{...}" />
+            <marker date="1526211385221" expanded="true" signature="602:703" ph="/* Create Stream object via constructor of FileStream ... */" />
+            <marker date="1526211385221" expanded="true" signature="827:921" ph="/* Read on stream and asign to temporary array ... */" />
+            <marker date="1526211385221" expanded="true" signature="990:1153" ph="{...}" />
+            <marker date="1526211385221" expanded="true" signature="1167:1919" ph="/* Синтаксис C## также предлагает синонимичную конструкцию для автоматического вызова метод Dispose - конструкцию  ... */" />
+            <marker date="1526211385221" expanded="true" signature="1975:2252" ph="{...}" />
+            <marker date="1526211385221" expanded="true" signature="2047:2162" ph="{...}" />
+            <marker date="1526211385221" expanded="true" signature="2283:2369" ph="{...}" />
           </folding>
         </state>
       </provider>
