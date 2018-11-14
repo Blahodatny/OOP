@@ -1,0 +1,1334 @@
+09:48:27.197 |V| CacheJobService2              | <Start> "Job.AddAssemblies" #assemblies = 25
+09:48:31.870 |V| CacheJobService2              | <Finish> "Job.AddAssemblies" #assemblies = 25 time=4671ms
+09:48:31.871 |V| CacheJobService2              | <Start> "Job.LoadCache" #caches=34: GeneratedFilesCache, ConditionalNamesCache, NamedArgumentCache, InternalsVisibleToCache, AnnotatedMembersCache, AssemblyAnnotatedMembersCache, TypeMembersCache, SymbolCache, StubTreeNodeCache, BuildScriptCache, ProtobufFileOptionsCache, ProtobufImportCache, ProtobufDeclarationCache, WebConfigCacheController, TagPrefixCacheImpl, WebSymbolsCache, RazorTagHelperDataCache, RazorNamespaceCache, RazorInheritsCache, RazorNamespaceImportsCache, RazorInjectionsCache, HasSourceFileMapCache, JavaScriptTypeCacheMaintainer, JavaScriptDependentFilesCache, XamlAssemblyResourcesCache, ContentTrigramIndex, SourcesTrigramIndex, MvcCache, SolutionResourceCache, JavaScriptTestCache, RiderTodoManager, RiderDocumentInfoCache, AsmDefNameCache, FileImages
+09:48:40.474 |V| CacheJobService2              | <Finish> "Job.LoadCache" #caches=34: GeneratedFilesCache, ConditionalNamesCache, NamedArgumentCache, InternalsVisibleToCache, AnnotatedMembersCache, AssemblyAnnotatedMembersCache, TypeMembersCache, SymbolCache, StubTreeNodeCache, BuildScriptCache, ProtobufFileOptionsCache, ProtobufImportCache, ProtobufDeclarationCache, WebConfigCacheController, TagPrefixCacheImpl, WebSymbolsCache, RazorTagHelperDataCache, RazorNamespaceCache, RazorInheritsCache, RazorNamespaceImportsCache, RazorInjectionsCache, HasSourceFileMapCache, JavaScriptTypeCacheMaintainer, JavaScriptDependentFilesCache, XamlAssemblyResourcesCache, ContentTrigramIndex, SourcesTrigramIndex, MvcCache, SolutionResourceCache, JavaScriptTestCache, RiderTodoManager, RiderDocumentInfoCache, AsmDefNameCache, FileImages time=8602ms
+09:48:40.474 |V| CacheJobService2              | <Start> "Job.UpdateAllProjectFiles" 
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[LoadSolutionFromCache]"  time=14ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[InitialSynchronizeSolution]"  time=74ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[SolutionContainer]"  time=5027ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[FireProjectItemsAdded]"  time=659ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[FireAssembliesAdded]"  time=17ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[PreparePsiModules]"  time=3348ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[BeforeKickOff]"  time=0ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[KickOff]"  time=3ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[StartPsi]"  time=18ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[RefreshBuildSettings]"  time=3ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[Done]"  time=44ms
+09:48:41.286 |V| SolutionTelemetryHost         | <Measured> "SolutionLoad[AfterDone]"  time=69ms
+09:48:43.647 |V| CacheJobService2              | <Finish> "Job.UpdateAllProjectFiles"  time=3172ms
+09:48:43.648 |V| CacheJobService2              | <Start> "Job.SaveCaches" #caches=34: GeneratedFilesCache, ConditionalNamesCache, NamedArgumentCache, InternalsVisibleToCache, AnnotatedMembersCache, AssemblyAnnotatedMembersCache, TypeMembersCache, SymbolCache, StubTreeNodeCache, BuildScriptCache, ProtobufFileOptionsCache, ProtobufImportCache, ProtobufDeclarationCache, WebConfigCacheController, TagPrefixCacheImpl, WebSymbolsCache, RazorTagHelperDataCache, RazorNamespaceCache, RazorInheritsCache, RazorNamespaceImportsCache, RazorInjectionsCache, HasSourceFileMapCache, JavaScriptTypeCacheMaintainer, JavaScriptDependentFilesCache, XamlAssemblyResourcesCache, ContentTrigramIndex, SourcesTrigramIndex, MvcCache, SolutionResourceCache, JavaScriptTestCache, RiderTodoManager, RiderDocumentInfoCache, AsmDefNameCache, FileImages
+09:48:43.826 |V| CacheJobService2              | <Finish> "Job.SaveCaches" #caches=34: GeneratedFilesCache, ConditionalNamesCache, NamedArgumentCache, InternalsVisibleToCache, AnnotatedMembersCache, AssemblyAnnotatedMembersCache, TypeMembersCache, SymbolCache, StubTreeNodeCache, BuildScriptCache, ProtobufFileOptionsCache, ProtobufImportCache, ProtobufDeclarationCache, WebConfigCacheController, TagPrefixCacheImpl, WebSymbolsCache, RazorTagHelperDataCache, RazorNamespaceCache, RazorInheritsCache, RazorNamespaceImportsCache, RazorInjectionsCache, HasSourceFileMapCache, JavaScriptTypeCacheMaintainer, JavaScriptDependentFilesCache, XamlAssemblyResourcesCache, ContentTrigramIndex, SourcesTrigramIndex, MvcCache, SolutionResourceCache, JavaScriptTestCache, RiderTodoManager, RiderDocumentInfoCache, AsmDefNameCache, FileImages time=177ms
+09:48:47.141 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=2
+09:48:48.764 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=2 time=1623ms
+09:49:23.846 |V| CompletionHost                | <Start> "CompletionItems" 
+09:49:24.437 |V| CompletionHost                | <Finish> "CompletionItems"  time=591ms
+09:49:24.468 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+09:49:24.538 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=70ms
+09:49:28.689 |V| CompletionHost                | <Start> "CompletionItems" 
+09:49:28.741 |V| CompletionHost                | <Finish> "CompletionItems"  time=51ms
+09:49:28.746 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+09:49:28.806 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=60ms
+09:49:33.973 |V| CompletionHost                | <Start> "CompletionItems" 
+09:49:34.049 |V| CompletionHost                | <Finish> "CompletionItems"  time=75ms
+09:49:34.379 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+09:49:34.404 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=24ms
+09:49:40.341 |V| CompletionHost                | <Start> "CompletionItems" 
+09:49:40.372 |V| CompletionHost                | <Finish> "CompletionItems"  time=30ms
+09:49:40.373 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+09:49:40.380 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+09:50:05.063 |V| CompletionHost                | <Start> "CompletionItems" 
+09:50:05.182 |V| CompletionHost                | <Finish> "CompletionItems"  time=118ms
+09:50:05.196 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+09:50:05.256 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=59ms
+09:50:07.310 |V| CompletionHost                | <Start> "CompletionItems" 
+09:50:07.352 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+09:50:07.355 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+09:50:07.388 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=32ms
+09:50:50.142 |V| CompletionHost                | <Start> "CompletionItems" 
+09:50:50.195 |V| CompletionHost                | <Finish> "CompletionItems"  time=53ms
+09:50:59.811 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+09:50:59.920 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=108ms
+09:51:00.551 |V| CompletionHost                | <Start> "CompletionItems" 
+09:51:00.671 |V| CompletionHost                | <Finish> "CompletionItems"  time=120ms
+09:51:00.680 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+09:51:00.806 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=125ms
+09:51:01.953 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+09:51:01.965 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=10ms
+10:05:56.430 |V| CompletionHost                | <Start> "CompletionItems" 
+10:05:56.520 |V| CompletionHost                | <Finish> "CompletionItems"  time=89ms
+10:05:56.525 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:05:56.591 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=65ms
+10:05:57.118 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:05:57.126 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=8ms
+10:06:45.934 |V| CompletionHost                | <Start> "CompletionItems" 
+10:06:46.039 |V| CompletionHost                | <Finish> "CompletionItems"  time=104ms
+10:06:46.040 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:06:46.051 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=10ms
+10:06:48.233 |V| CompletionHost                | <Start> "CompletionItems" 
+10:06:48.320 |V| CompletionHost                | <Finish> "CompletionItems"  time=86ms
+10:06:48.322 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:06:48.338 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=16ms
+10:07:29.460 |V| CompletionHost                | <Start> "CompletionItems" 
+10:07:29.463 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:07:31.743 |V| CompletionHost                | <Start> "CompletionItems" 
+10:07:31.744 |V| CompletionHost                | <Finish> "CompletionItems"  time=1ms
+10:07:49.656 |V| CompletionHost                | <Start> "CompletionItems" 
+10:07:49.677 |V| CompletionHost                | <Finish> "CompletionItems"  time=20ms
+10:08:32.133 |V| CompletionHost                | <Start> "CompletionItems" 
+10:08:32.160 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:08:32.161 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:08:32.167 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:09:43.233 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:09:43.233 |V| CompletionHost                | <Start> "CompletionItems" 
+10:09:43.238 |V| CompletionHost                | <Finish> "CompletionItems"  time=4ms
+10:09:43.382 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=148ms
+10:09:44.250 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:09:44.259 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=8ms
+10:09:45.961 |V| CompletionHost                | <Start> "CompletionItems" 
+10:09:45.966 |V| CompletionHost                | <Finish> "CompletionItems"  time=4ms
+10:09:46.122 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:09:46.128 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=5ms
+10:12:00.342 |V| CompletionHost                | <Start> "CompletionItems" 
+10:12:00.389 |V| CompletionHost                | <Finish> "CompletionItems"  time=46ms
+10:12:00.393 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:12:00.434 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=40ms
+10:12:14.836 |V| CompletionHost                | <Start> "CompletionItems" 
+10:12:14.869 |V| CompletionHost                | <Finish> "CompletionItems"  time=33ms
+10:12:14.872 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:12:15.069 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=197ms
+10:12:39.423 |V| CompletionHost                | <Start> "CompletionItems" 
+10:12:39.478 |V| CompletionHost                | <Finish> "CompletionItems"  time=54ms
+10:12:39.478 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:12:39.486 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+10:12:56.548 |V| CompletionHost                | <Start> "CompletionItems" 
+10:12:56.596 |V| CompletionHost                | <Finish> "CompletionItems"  time=47ms
+10:12:56.598 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:12:56.608 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=9ms
+10:13:05.477 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:05.499 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:13:05.499 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:13:05.505 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:13:12.021 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:12.056 |V| CompletionHost                | <Finish> "CompletionItems"  time=34ms
+10:13:12.066 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:13:12.080 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=14ms
+10:13:31.148 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:31.193 |V| CompletionHost                | <Finish> "CompletionItems"  time=44ms
+10:13:31.205 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:13:31.221 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=15ms
+10:13:38.484 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:38.498 |V| CompletionHost                | <Finish> "CompletionItems"  time=13ms
+10:13:39.341 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:39.346 |V| CompletionHost                | <Finish> "CompletionItems"  time=4ms
+10:13:40.235 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:40.241 |V| CompletionHost                | <Finish> "CompletionItems"  time=5ms
+10:13:40.553 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:40.558 |V| CompletionHost                | <Finish> "CompletionItems"  time=4ms
+10:13:46.187 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:46.215 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:13:46.216 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:13:46.225 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=8ms
+10:13:49.813 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:49.857 |V| CompletionHost                | <Finish> "CompletionItems"  time=44ms
+10:13:49.862 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:13:49.900 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=38ms
+10:13:58.110 |V| CompletionHost                | <Start> "CompletionItems" 
+10:13:58.144 |V| CompletionHost                | <Finish> "CompletionItems"  time=33ms
+10:13:58.145 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:13:58.153 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+10:14:01.629 |V| CompletionHost                | <Start> "CompletionItems" 
+10:14:01.634 |V| CompletionHost                | <Finish> "CompletionItems"  time=5ms
+10:14:07.344 |V| CompletionHost                | <Start> "CompletionItems" 
+10:14:07.361 |V| CompletionHost                | <Finish> "CompletionItems"  time=17ms
+10:14:07.362 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:14:07.365 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:14:12.484 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:14:12.489 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=4ms
+10:14:12.515 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:14:12.519 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=3ms
+10:14:12.548 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:14:12.553 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=4ms
+10:17:26.952 |V| CompletionHost                | <Start> "CompletionItems" 
+10:17:26.983 |V| CompletionHost                | <Finish> "CompletionItems"  time=31ms
+10:17:26.988 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:17:27.033 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=44ms
+10:17:55.986 |V| CompletionHost                | <Start> "CompletionItems" 
+10:17:55.988 |V| CompletionHost                | <Finish> "CompletionItems"  time=1ms
+10:18:10.553 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:10.555 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:18:15.731 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:15.758 |V| CompletionHost                | <Finish> "CompletionItems"  time=26ms
+10:18:15.763 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:15.813 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=50ms
+10:18:18.496 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:18.999 |V| CompletionHost                | <Finish> "CompletionItems"  time=503ms
+10:18:19.003 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:19.050 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=46ms
+10:18:23.414 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:23.498 |V| CompletionHost                | <Finish> "CompletionItems"  time=83ms
+10:18:23.506 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:23.586 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=79ms
+10:18:25.220 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:25.253 |V| CompletionHost                | <Finish> "CompletionItems"  time=32ms
+10:18:25.276 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:25.311 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=35ms
+10:18:27.444 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:27.512 |V| CompletionHost                | <Finish> "CompletionItems"  time=68ms
+10:18:27.519 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:27.605 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=86ms
+10:18:34.817 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:34.847 |V| CompletionHost                | <Finish> "CompletionItems"  time=30ms
+10:18:34.853 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:34.861 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=8ms
+10:18:36.784 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:36.813 |V| CompletionHost                | <Finish> "CompletionItems"  time=29ms
+10:18:36.816 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:36.845 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:18:40.272 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:40.307 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:18:40.312 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:40.331 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=19ms
+10:18:45.069 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:45.126 |V| CompletionHost                | <Finish> "CompletionItems"  time=56ms
+10:18:45.130 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:45.169 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=38ms
+10:18:49.418 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:49.442 |V| CompletionHost                | <Finish> "CompletionItems"  time=24ms
+10:18:49.446 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:49.504 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=58ms
+10:18:51.289 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:51.386 |V| CompletionHost                | <Finish> "CompletionItems"  time=97ms
+10:18:51.392 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:51.438 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=45ms
+10:18:52.896 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:52.917 |V| CompletionHost                | <Finish> "CompletionItems"  time=21ms
+10:18:52.921 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:52.963 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=42ms
+10:18:54.727 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:54.775 |V| CompletionHost                | <Finish> "CompletionItems"  time=47ms
+10:18:54.779 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:54.827 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=47ms
+10:18:58.329 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:58.358 |V| CompletionHost                | <Finish> "CompletionItems"  time=29ms
+10:18:58.362 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:58.405 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=42ms
+10:18:59.595 |V| CompletionHost                | <Start> "CompletionItems" 
+10:18:59.676 |V| CompletionHost                | <Finish> "CompletionItems"  time=81ms
+10:18:59.692 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:18:59.773 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=81ms
+10:18:59.827 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:18:59.865 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=37ms
+10:19:01.902 |V| CompletionHost                | <Start> "CompletionItems" 
+10:19:01.926 |V| CompletionHost                | <Finish> "CompletionItems"  time=23ms
+10:19:01.930 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:19:01.967 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=37ms
+10:19:04.100 |V| CompletionHost                | <Start> "CompletionItems" 
+10:19:04.131 |V| CompletionHost                | <Finish> "CompletionItems"  time=31ms
+10:19:04.135 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:19:04.176 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=40ms
+10:19:06.494 |V| CompletionHost                | <Start> "CompletionItems" 
+10:19:06.496 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:19:12.704 |V| CompletionHost                | <Start> "CompletionItems" 
+10:19:12.755 |V| CompletionHost                | <Finish> "CompletionItems"  time=51ms
+10:19:12.800 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:19:12.808 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+10:19:18.319 |V| CompletionHost                | <Start> "CompletionItems" 
+10:19:18.341 |V| CompletionHost                | <Finish> "CompletionItems"  time=21ms
+10:19:18.344 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:19:18.381 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=37ms
+10:19:22.734 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:19:22.738 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=4ms
+10:19:24.753 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:19:24.756 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=2ms
+10:19:34.044 |V| CompletionHost                | <Start> "CompletionItems" 
+10:19:34.072 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:19:34.075 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:19:34.117 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=42ms
+10:19:35.241 |V| CompletionHost                | <Start> "CompletionItems" 
+10:19:35.319 |V| CompletionHost                | <Finish> "CompletionItems"  time=78ms
+10:19:35.324 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:19:35.365 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=41ms
+10:19:36.337 |V| CompletionHost                | <Start> "CompletionItems" 
+10:19:37.035 |V| CompletionHost                | <Finish> "CompletionItems"  time=697ms
+10:19:37.265 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:19:37.277 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=11ms
+10:19:55.054 |V| CompletionHost                | <Start> "CompletionItems" 
+10:19:55.085 |V| CompletionHost                | <Finish> "CompletionItems"  time=31ms
+10:19:55.086 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:19:55.090 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:20:02.030 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:20:02.038 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=7ms
+10:20:02.657 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:03.152 |V| CompletionHost                | <Finish> "CompletionItems"  time=494ms
+10:20:03.167 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:03.183 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=15ms
+10:20:11.176 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:11.203 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:20:11.204 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:11.214 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=9ms
+10:20:15.559 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:15.596 |V| CompletionHost                | <Finish> "CompletionItems"  time=36ms
+10:20:15.599 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:15.640 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=41ms
+10:20:17.004 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:17.059 |V| CompletionHost                | <Finish> "CompletionItems"  time=55ms
+10:20:17.065 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:17.114 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=48ms
+10:20:18.544 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:18.554 |V| CompletionHost                | <Finish> "CompletionItems"  time=9ms
+10:20:23.881 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:23.906 |V| CompletionHost                | <Finish> "CompletionItems"  time=25ms
+10:20:23.907 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:23.915 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=8ms
+10:20:34.964 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:34.999 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:20:35.029 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:35.057 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=27ms
+10:20:36.351 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:36.397 |V| CompletionHost                | <Finish> "CompletionItems"  time=45ms
+10:20:36.433 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:36.482 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=48ms
+10:20:41.129 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:41.158 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:20:41.171 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:41.188 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=15ms
+10:20:42.696 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:42.724 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:20:42.728 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:42.757 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:20:43.989 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:44.032 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+10:20:44.038 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:44.087 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=49ms
+10:20:46.307 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:46.338 |V| CompletionHost                | <Finish> "CompletionItems"  time=30ms
+10:20:46.341 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:46.369 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:20:47.104 |V| CompletionHost                | <Start> "CompletionItems" 
+10:20:47.176 |V| CompletionHost                | <Finish> "CompletionItems"  time=71ms
+10:20:47.182 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:20:47.256 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=74ms
+10:20:49.533 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:20:49.542 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=7ms
+10:21:26.199 |V| CompletionHost                | <Start> "CompletionItems" 
+10:21:26.239 |V| CompletionHost                | <Finish> "CompletionItems"  time=39ms
+10:21:26.239 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:21:26.245 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:21:30.012 |V| CompletionHost                | <Start> "CompletionItems" 
+10:21:30.055 |V| CompletionHost                | <Finish> "CompletionItems"  time=43ms
+10:21:30.058 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:21:30.105 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=46ms
+10:21:39.669 |V| CompletionHost                | <Start> "CompletionItems" 
+10:21:39.695 |V| CompletionHost                | <Finish> "CompletionItems"  time=26ms
+10:21:39.696 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:21:39.705 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=9ms
+10:21:42.451 |V| CompletionHost                | <Start> "CompletionItems" 
+10:21:42.479 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:21:42.482 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:21:42.510 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:21:45.934 |V| CompletionHost                | <Start> "CompletionItems" 
+10:21:46.002 |V| CompletionHost                | <Finish> "CompletionItems"  time=67ms
+10:21:46.024 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:21:46.072 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=48ms
+10:21:48.060 |V| CompletionHost                | <Start> "CompletionItems" 
+10:21:48.095 |V| CompletionHost                | <Finish> "CompletionItems"  time=34ms
+10:21:48.099 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:21:48.135 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=35ms
+10:21:49.294 |V| CompletionHost                | <Start> "CompletionItems" 
+10:21:49.395 |V| CompletionHost                | <Finish> "CompletionItems"  time=100ms
+10:21:49.399 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:21:49.447 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=47ms
+10:21:50.418 |V| CompletionHost                | <Start> "CompletionItems" 
+10:21:50.456 |V| CompletionHost                | <Finish> "CompletionItems"  time=38ms
+10:21:50.459 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:21:50.493 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=34ms
+10:21:54.213 |V| CompletionHost                | <Start> "CompletionItems" 
+10:21:54.251 |V| CompletionHost                | <Finish> "CompletionItems"  time=37ms
+10:21:54.259 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:21:54.265 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:22:04.476 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:22:04.500 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=24ms
+10:22:08.505 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:08.549 |V| CompletionHost                | <Finish> "CompletionItems"  time=43ms
+10:22:08.553 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:08.592 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=39ms
+10:22:09.728 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:09.789 |V| CompletionHost                | <Finish> "CompletionItems"  time=60ms
+10:22:09.807 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:09.849 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=42ms
+10:22:12.805 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:12.849 |V| CompletionHost                | <Finish> "CompletionItems"  time=44ms
+10:22:12.853 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:12.881 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:22:14.570 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:14.612 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+10:22:14.616 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:14.652 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=36ms
+10:22:17.159 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:17.165 |V| CompletionHost                | <Finish> "CompletionItems"  time=5ms
+10:22:20.273 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:20.296 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:22:20.296 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:20.306 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=9ms
+10:22:22.537 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:22.573 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:22:22.577 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:22.632 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=53ms
+10:22:26.070 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:26.091 |V| CompletionHost                | <Finish> "CompletionItems"  time=21ms
+10:22:26.092 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:26.099 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:22:28.105 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:28.136 |V| CompletionHost                | <Finish> "CompletionItems"  time=31ms
+10:22:28.139 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:28.227 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=88ms
+10:22:32.543 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:32.588 |V| CompletionHost                | <Finish> "CompletionItems"  time=45ms
+10:22:32.590 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:32.598 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+10:22:36.310 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:36.337 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:22:36.339 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:36.375 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=35ms
+10:22:39.473 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:39.491 |V| CompletionHost                | <Finish> "CompletionItems"  time=17ms
+10:22:39.533 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:39.540 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:22:43.260 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:43.285 |V| CompletionHost                | <Finish> "CompletionItems"  time=24ms
+10:22:43.290 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:43.299 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=8ms
+10:22:47.631 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:47.675 |V| CompletionHost                | <Finish> "CompletionItems"  time=43ms
+10:22:47.693 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:47.697 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:22:51.900 |V| CompletionHost                | <Start> "CompletionItems" 
+10:22:51.936 |V| CompletionHost                | <Finish> "CompletionItems"  time=36ms
+10:22:51.936 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:22:51.941 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=4ms
+10:23:01.573 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:01.608 |V| CompletionHost                | <Finish> "CompletionItems"  time=34ms
+10:23:01.611 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:01.653 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=42ms
+10:23:02.954 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:03.046 |V| CompletionHost                | <Finish> "CompletionItems"  time=91ms
+10:23:03.048 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:03.098 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=49ms
+10:23:05.058 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:05.081 |V| CompletionHost                | <Finish> "CompletionItems"  time=23ms
+10:23:05.084 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:05.115 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=30ms
+10:23:06.141 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:06.183 |V| CompletionHost                | <Finish> "CompletionItems"  time=42ms
+10:23:06.189 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:06.230 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=40ms
+10:23:07.625 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:07.666 |V| CompletionHost                | <Finish> "CompletionItems"  time=40ms
+10:23:07.669 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:07.697 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=27ms
+10:23:09.021 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:09.086 |V| CompletionHost                | <Finish> "CompletionItems"  time=64ms
+10:23:09.089 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:09.128 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=39ms
+10:23:10.650 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:10.684 |V| CompletionHost                | <Finish> "CompletionItems"  time=34ms
+10:23:10.687 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:10.717 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=29ms
+10:23:11.573 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:11.633 |V| CompletionHost                | <Finish> "CompletionItems"  time=59ms
+10:23:11.638 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:11.674 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=36ms
+10:23:12.832 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:12.901 |V| CompletionHost                | <Finish> "CompletionItems"  time=68ms
+10:23:12.904 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:12.936 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=32ms
+10:23:13.790 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:13.875 |V| CompletionHost                | <Finish> "CompletionItems"  time=85ms
+10:23:13.880 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:13.918 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=37ms
+10:23:19.295 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:19.331 |V| CompletionHost                | <Finish> "CompletionItems"  time=36ms
+10:23:19.335 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:19.370 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=34ms
+10:23:23.278 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:23.299 |V| CompletionHost                | <Finish> "CompletionItems"  time=21ms
+10:23:23.300 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:23.306 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:23:28.249 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:23:28.252 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=2ms
+10:23:35.213 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:23:35.216 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=3ms
+10:23:46.437 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:46.441 |V| CompletionHost                | <Finish> "CompletionItems"  time=4ms
+10:23:54.539 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:54.561 |V| CompletionHost                | <Finish> "CompletionItems"  time=21ms
+10:23:54.625 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:54.628 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:23:54.677 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:54.679 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:23:55.612 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:23:55.741 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=128ms
+10:23:55.771 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:23:55.812 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=41ms
+10:23:55.854 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:55.859 |V| CompletionHost                | <Finish> "CompletionItems"  time=4ms
+10:23:58.289 |V| CompletionHost                | <Start> "CompletionItems" 
+10:23:58.319 |V| CompletionHost                | <Finish> "CompletionItems"  time=29ms
+10:23:58.321 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:23:58.358 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=37ms
+10:24:00.215 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:00.247 |V| CompletionHost                | <Finish> "CompletionItems"  time=31ms
+10:24:00.249 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:24:00.303 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=53ms
+10:24:01.979 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:01.988 |V| CompletionHost                | <Finish> "CompletionItems"  time=9ms
+10:24:10.918 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:10.938 |V| CompletionHost                | <Finish> "CompletionItems"  time=19ms
+10:24:10.939 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:24:10.945 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:24:13.714 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:13.734 |V| CompletionHost                | <Finish> "CompletionItems"  time=20ms
+10:24:13.735 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:24:13.741 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:24:15.172 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:15.196 |V| CompletionHost                | <Finish> "CompletionItems"  time=23ms
+10:24:15.197 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:24:15.205 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=8ms
+10:24:23.898 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:23.901 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:24:29.456 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:24:29.464 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=7ms
+10:24:55.314 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:55.320 |V| CompletionHost                | <Finish> "CompletionItems"  time=5ms
+10:24:56.681 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:56.729 |V| CompletionHost                | <Finish> "CompletionItems"  time=47ms
+10:24:56.732 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:24:56.781 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=48ms
+10:24:56.843 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:56.870 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:24:56.873 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:24:56.900 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=27ms
+10:24:57.499 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:57.501 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:24:57.631 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:57.634 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:24:58.326 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:24:58.434 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=108ms
+10:24:58.466 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:58.467 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:24:58.472 |V| CompletionHost                | <Finish> "CompletionItems"  time=6ms
+10:24:58.489 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=21ms
+10:24:58.513 |V| CompletionHost                | <Start> "CompletionItems" 
+10:24:58.515 |V| CompletionHost                | <Finish> "CompletionItems"  time=1ms
+10:25:00.477 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:00.485 |V| CompletionHost                | <Finish> "CompletionItems"  time=7ms
+10:25:01.007 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:01.042 |V| CompletionHost                | <Finish> "CompletionItems"  time=34ms
+10:25:01.045 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:01.100 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=54ms
+10:25:09.306 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:09.342 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:25:09.347 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:09.410 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=62ms
+10:25:09.478 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:09.516 |V| CompletionHost                | <Finish> "CompletionItems"  time=38ms
+10:25:09.520 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:09.534 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=13ms
+10:25:09.580 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:09.583 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:25:09.693 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:09.696 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:25:10.336 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:25:10.393 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=56ms
+10:25:10.433 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:10.460 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:25:10.462 |V| CompletionHost                | <Finish> "CompletionItems"  time=29ms
+10:25:10.491 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=31ms
+10:25:10.537 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:10.542 |V| CompletionHost                | <Finish> "CompletionItems"  time=5ms
+10:25:12.145 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:12.158 |V| CompletionHost                | <Finish> "CompletionItems"  time=12ms
+10:25:12.515 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:12.562 |V| CompletionHost                | <Finish> "CompletionItems"  time=46ms
+10:25:12.565 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:12.609 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=43ms
+10:25:12.629 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:12.683 |V| CompletionHost                | <Finish> "CompletionItems"  time=53ms
+10:25:12.685 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:12.713 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=27ms
+10:25:12.804 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:12.807 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:25:12.877 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:12.880 |V| CompletionHost                | <Finish> "CompletionItems"  time=3ms
+10:25:13.513 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:25:13.555 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=42ms
+10:25:13.579 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:13.605 |V| CompletionHost                | <Finish> "CompletionItems"  time=25ms
+10:25:13.608 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:13.625 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:25:13.626 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=18ms
+10:25:13.644 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=19ms
+10:25:13.666 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:13.670 |V| CompletionHost                | <Finish> "CompletionItems"  time=4ms
+10:25:15.487 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:15.501 |V| CompletionHost                | <Finish> "CompletionItems"  time=13ms
+10:25:15.843 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:15.888 |V| CompletionHost                | <Finish> "CompletionItems"  time=45ms
+10:25:15.892 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:15.935 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=43ms
+10:25:15.992 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:16.057 |V| CompletionHost                | <Finish> "CompletionItems"  time=64ms
+10:25:16.063 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:16.107 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=43ms
+10:25:16.130 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:16.132 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:25:16.316 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:16.318 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:25:16.977 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:25:17.044 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=67ms
+10:25:17.145 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:17.145 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:25:17.146 |V| CompletionHost                | <Finish> "CompletionItems"  time=1ms
+10:25:17.169 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=24ms
+10:25:17.194 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:17.196 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:25:18.781 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:18.783 |V| CompletionHost                | <Finish> "CompletionItems"  time=2ms
+10:25:19.078 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:19.111 |V| CompletionHost                | <Finish> "CompletionItems"  time=33ms
+10:25:19.114 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:19.146 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=31ms
+10:25:19.213 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:19.249 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:25:19.252 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:19.281 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=29ms
+10:25:19.377 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:19.380 |V| CompletionHost                | <Finish> "CompletionItems"  time=3ms
+10:25:19.604 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:19.622 |V| CompletionHost                | <Finish> "CompletionItems"  time=18ms
+10:25:20.105 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:25:20.152 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=46ms
+10:25:20.186 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:20.186 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:25:20.187 |V| CompletionHost                | <Finish> "CompletionItems"  time=1ms
+10:25:20.206 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=20ms
+10:25:20.352 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:20.355 |V| CompletionHost                | <Finish> "CompletionItems"  time=3ms
+10:25:20.556 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:25:20.563 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=6ms
+10:25:24.898 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:24.940 |V| CompletionHost                | <Finish> "CompletionItems"  time=42ms
+10:25:24.945 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:25.002 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=56ms
+10:25:28.396 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:25:28.404 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=7ms
+10:25:28.444 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:28.482 |V| CompletionHost                | <Finish> "CompletionItems"  time=37ms
+10:25:28.483 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:28.493 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=9ms
+10:25:30.890 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:30.907 |V| CompletionHost                | <Finish> "CompletionItems"  time=16ms
+10:25:30.907 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:30.911 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:25:34.474 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:34.489 |V| CompletionHost                | <Finish> "CompletionItems"  time=14ms
+10:25:34.507 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:34.516 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=8ms
+10:25:40.194 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:40.237 |V| CompletionHost                | <Finish> "CompletionItems"  time=43ms
+10:25:40.240 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:40.282 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=41ms
+10:25:44.018 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:44.047 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:25:44.049 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:44.065 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=15ms
+10:25:49.654 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:49.683 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:25:49.685 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:49.726 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=41ms
+10:25:52.315 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:52.317 |V| CompletionHost                | <Finish> "CompletionItems"  time=1ms
+10:25:53.328 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:53.349 |V| CompletionHost                | <Finish> "CompletionItems"  time=21ms
+10:25:53.350 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:53.353 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:25:53.759 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:53.775 |V| CompletionHost                | <Finish> "CompletionItems"  time=15ms
+10:25:53.781 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:53.785 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:25:53.815 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:53.855 |V| CompletionHost                | <Finish> "CompletionItems"  time=39ms
+10:25:53.856 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:53.859 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:25:53.979 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:53.996 |V| CompletionHost                | <Finish> "CompletionItems"  time=17ms
+10:25:53.996 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:54.000 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:25:54.138 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:54.151 |V| CompletionHost                | <Finish> "CompletionItems"  time=12ms
+10:25:54.152 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:54.155 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:25:54.505 |V| CompletionHost                | <Start> "CompletionItems" 
+10:25:54.542 |V| CompletionHost                | <Finish> "CompletionItems"  time=37ms
+10:25:54.543 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:25:54.547 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:25:59.779 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:00.039 |V| CompletionHost                | <Finish> "CompletionItems"  time=259ms
+10:26:00.177 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:00.252 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=74ms
+10:26:01.729 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:01.752 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:26:01.753 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:01.783 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=29ms
+10:26:02.537 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:02.615 |V| CompletionHost                | <Finish> "CompletionItems"  time=77ms
+10:26:02.620 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:02.674 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=54ms
+10:26:05.723 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:05.730 |V| CompletionHost                | <Finish> "CompletionItems"  time=6ms
+10:26:07.830 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:07.881 |V| CompletionHost                | <Finish> "CompletionItems"  time=50ms
+10:26:07.885 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:07.917 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=31ms
+10:26:09.417 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:09.435 |V| CompletionHost                | <Finish> "CompletionItems"  time=17ms
+10:26:09.435 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:09.440 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=4ms
+10:26:11.236 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:11.273 |V| CompletionHost                | <Finish> "CompletionItems"  time=36ms
+10:26:11.273 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:11.277 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:26:13.858 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:13.882 |V| CompletionHost                | <Finish> "CompletionItems"  time=23ms
+10:26:13.883 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:13.889 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:26:15.441 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:15.469 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:26:15.470 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:15.498 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=27ms
+10:26:19.976 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:20.006 |V| CompletionHost                | <Finish> "CompletionItems"  time=30ms
+10:26:20.007 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:20.013 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:26:30.177 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:30.186 |V| CompletionHost                | <Finish> "CompletionItems"  time=8ms
+10:26:33.907 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:33.929 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:26:33.930 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:33.935 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=4ms
+10:26:42.233 |V| CompletionHost                | <Start> "CompletionItems" 
+10:26:42.252 |V| CompletionHost                | <Finish> "CompletionItems"  time=18ms
+10:26:42.252 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:26:42.258 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:27:02.941 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:02.987 |V| CompletionHost                | <Finish> "CompletionItems"  time=45ms
+10:27:02.991 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:03.034 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=43ms
+10:27:04.236 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:04.278 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+10:27:04.305 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:04.346 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=40ms
+10:27:05.401 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:05.486 |V| CompletionHost                | <Finish> "CompletionItems"  time=85ms
+10:27:05.492 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:05.553 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=60ms
+10:27:06.824 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:06.858 |V| CompletionHost                | <Finish> "CompletionItems"  time=34ms
+10:27:06.895 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:06.941 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=45ms
+10:27:09.915 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:09.945 |V| CompletionHost                | <Finish> "CompletionItems"  time=30ms
+10:27:09.949 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:09.977 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:27:11.550 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:11.583 |V| CompletionHost                | <Finish> "CompletionItems"  time=32ms
+10:27:11.589 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:11.623 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=34ms
+10:27:15.559 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:15.595 |V| CompletionHost                | <Finish> "CompletionItems"  time=36ms
+10:27:15.599 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:15.626 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=27ms
+10:27:17.332 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:17.349 |V| CompletionHost                | <Finish> "CompletionItems"  time=17ms
+10:27:17.350 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:17.355 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:27:19.726 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:19.762 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:27:19.765 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:19.794 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:27:21.062 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:21.097 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:27:21.101 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:21.134 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=32ms
+10:27:27.395 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:27.428 |V| CompletionHost                | <Finish> "CompletionItems"  time=32ms
+10:27:27.432 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:27.461 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:27:28.396 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:28.449 |V| CompletionHost                | <Finish> "CompletionItems"  time=52ms
+10:27:28.467 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:28.509 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=41ms
+10:27:30.621 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:30.638 |V| CompletionHost                | <Finish> "CompletionItems"  time=16ms
+10:27:34.488 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:34.512 |V| CompletionHost                | <Finish> "CompletionItems"  time=23ms
+10:27:34.513 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:34.525 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=12ms
+10:27:48.041 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:48.050 |V| CompletionHost                | <Finish> "CompletionItems"  time=9ms
+10:27:48.050 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:48.055 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=4ms
+10:27:50.938 |V| CompletionHost                | <Start> "CompletionItems" 
+10:27:50.968 |V| CompletionHost                | <Finish> "CompletionItems"  time=30ms
+10:27:50.969 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:27:50.976 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:28:04.750 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:04.797 |V| CompletionHost                | <Finish> "CompletionItems"  time=46ms
+10:28:04.798 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:04.802 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=4ms
+10:28:11.901 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:11.929 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:28:11.930 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:11.933 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:28:18.076 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:18.128 |V| CompletionHost                | <Finish> "CompletionItems"  time=52ms
+10:28:18.129 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:18.134 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:28:33.126 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:28:33.128 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=2ms
+10:28:34.050 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:34.067 |V| CompletionHost                | <Finish> "CompletionItems"  time=17ms
+10:28:34.084 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:34.091 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:28:42.521 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:42.563 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+10:28:42.566 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:42.604 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=38ms
+10:28:43.477 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:43.541 |V| CompletionHost                | <Finish> "CompletionItems"  time=63ms
+10:28:43.548 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:43.588 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=40ms
+10:28:44.638 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:44.667 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:28:44.670 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:44.700 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=29ms
+10:28:45.745 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:45.807 |V| CompletionHost                | <Finish> "CompletionItems"  time=61ms
+10:28:45.812 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:45.852 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=40ms
+10:28:47.692 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:47.706 |V| CompletionHost                | <Finish> "CompletionItems"  time=13ms
+10:28:47.706 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:47.710 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:28:49.332 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:49.353 |V| CompletionHost                | <Finish> "CompletionItems"  time=20ms
+10:28:49.354 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:49.360 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:28:54.578 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:54.627 |V| CompletionHost                | <Finish> "CompletionItems"  time=48ms
+10:28:54.631 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:54.658 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=27ms
+10:28:55.480 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:55.540 |V| CompletionHost                | <Finish> "CompletionItems"  time=59ms
+10:28:55.546 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:55.595 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=48ms
+10:28:58.503 |V| CompletionHost                | <Start> "CompletionItems" 
+10:28:58.629 |V| CompletionHost                | <Finish> "CompletionItems"  time=125ms
+10:28:58.644 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:28:58.685 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=40ms
+10:29:02.358 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:02.381 |V| CompletionHost                | <Finish> "CompletionItems"  time=23ms
+10:29:02.382 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:02.392 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=10ms
+10:29:08.340 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:29:08.341 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=0ms
+10:29:11.671 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:29:11.684 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=13ms
+10:29:13.919 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:29:13.921 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=2ms
+10:29:15.248 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:29:15.251 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=2ms
+10:29:20.131 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:20.187 |V| CompletionHost                | <Finish> "CompletionItems"  time=56ms
+10:29:20.191 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:20.241 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=49ms
+10:29:21.741 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:21.810 |V| CompletionHost                | <Finish> "CompletionItems"  time=69ms
+10:29:21.814 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:21.852 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=37ms
+10:29:28.459 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:28.485 |V| CompletionHost                | <Finish> "CompletionItems"  time=25ms
+10:29:28.485 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:28.490 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=4ms
+10:29:30.894 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:30.921 |V| CompletionHost                | <Finish> "CompletionItems"  time=26ms
+10:29:30.921 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:30.932 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=10ms
+10:29:32.481 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:32.498 |V| CompletionHost                | <Finish> "CompletionItems"  time=17ms
+10:29:32.499 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:32.502 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:29:42.684 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:42.725 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+10:29:42.729 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:42.756 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=27ms
+10:29:43.527 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:43.619 |V| CompletionHost                | <Finish> "CompletionItems"  time=91ms
+10:29:43.628 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:43.672 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=44ms
+10:29:49.674 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:49.702 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:29:49.705 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:49.737 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=31ms
+10:29:50.648 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:50.733 |V| CompletionHost                | <Finish> "CompletionItems"  time=85ms
+10:29:50.737 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:50.800 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=63ms
+10:29:52.442 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:52.469 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:29:52.473 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:52.501 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:29:53.138 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:53.203 |V| CompletionHost                | <Finish> "CompletionItems"  time=64ms
+10:29:53.221 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:53.271 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=49ms
+10:29:58.135 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:58.158 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:29:58.158 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:58.162 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:29:59.829 |V| CompletionHost                | <Start> "CompletionItems" 
+10:29:59.854 |V| CompletionHost                | <Finish> "CompletionItems"  time=24ms
+10:29:59.855 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:29:59.861 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:30:00.771 |V| CompletionHost                | <Start> "CompletionItems" 
+10:30:00.799 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:30:00.802 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:30:00.859 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=57ms
+10:30:02.150 |V| CompletionHost                | <Start> "CompletionItems" 
+10:30:02.196 |V| CompletionHost                | <Finish> "CompletionItems"  time=46ms
+10:30:02.202 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:30:02.228 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=26ms
+10:30:03.996 |V| CompletionHost                | <Start> "CompletionItems" 
+10:30:04.028 |V| CompletionHost                | <Finish> "CompletionItems"  time=31ms
+10:30:04.032 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:30:04.074 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=41ms
+10:30:06.084 |V| CompletionHost                | <Start> "CompletionItems" 
+10:30:06.106 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:30:06.108 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:30:06.137 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:30:08.786 |V| CompletionHost                | <Start> "CompletionItems" 
+10:30:08.805 |V| CompletionHost                | <Finish> "CompletionItems"  time=19ms
+10:30:08.805 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:30:08.814 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=9ms
+10:30:30.182 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:30:30.195 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=12ms
+10:32:51.397 |V| CompletionHost                | <Start> "CompletionItems" 
+10:32:51.446 |V| CompletionHost                | <Finish> "CompletionItems"  time=48ms
+10:32:51.450 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:32:51.503 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=53ms
+10:33:02.849 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:02.852 |V| CompletionHost                | <Finish> "CompletionItems"  time=3ms
+10:33:13.288 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:13.296 |V| CompletionHost                | <Finish> "CompletionItems"  time=7ms
+10:33:17.263 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:17.358 |V| CompletionHost                | <Finish> "CompletionItems"  time=95ms
+10:33:17.363 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:17.426 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=62ms
+10:33:18.732 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:18.759 |V| CompletionHost                | <Finish> "CompletionItems"  time=26ms
+10:33:18.761 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:18.803 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=41ms
+10:33:19.925 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:19.947 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:33:19.950 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:19.999 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=49ms
+10:33:22.218 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:22.284 |V| CompletionHost                | <Finish> "CompletionItems"  time=65ms
+10:33:22.285 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:22.288 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:33:24.492 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:24.539 |V| CompletionHost                | <Finish> "CompletionItems"  time=47ms
+10:33:24.542 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:24.574 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=31ms
+10:33:25.715 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:25.748 |V| CompletionHost                | <Finish> "CompletionItems"  time=33ms
+10:33:25.760 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:25.771 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=10ms
+10:33:29.058 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:29.079 |V| CompletionHost                | <Finish> "CompletionItems"  time=21ms
+10:33:29.080 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:29.087 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+10:33:31.832 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:31.860 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:33:31.862 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:31.875 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=12ms
+10:33:37.928 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:37.938 |V| CompletionHost                | <Finish> "CompletionItems"  time=9ms
+10:33:42.943 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:42.969 |V| CompletionHost                | <Finish> "CompletionItems"  time=25ms
+10:33:42.982 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:42.988 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:33:46.772 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:46.809 |V| CompletionHost                | <Finish> "CompletionItems"  time=36ms
+10:33:46.812 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:46.858 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=45ms
+10:33:48.078 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:48.097 |V| CompletionHost                | <Finish> "CompletionItems"  time=19ms
+10:33:48.100 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:48.144 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=44ms
+10:33:49.128 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:49.187 |V| CompletionHost                | <Finish> "CompletionItems"  time=58ms
+10:33:49.195 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:49.239 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=43ms
+10:33:51.506 |V| CompletionHost                | <Start> "CompletionItems" 
+10:33:51.543 |V| CompletionHost                | <Finish> "CompletionItems"  time=36ms
+10:33:51.545 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:33:51.580 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=35ms
+10:34:03.817 |V| CompletionHost                | <Start> "CompletionItems" 
+10:34:03.846 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:34:03.848 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:34:03.911 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=62ms
+10:34:07.724 |V| CompletionHost                | <Start> "CompletionItems" 
+10:34:07.766 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+10:34:07.769 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:34:07.799 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=29ms
+10:34:12.173 |V| CompletionHost                | <Start> "CompletionItems" 
+10:34:12.215 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+10:34:12.217 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:34:12.257 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=40ms
+10:34:13.940 |V| CompletionHost                | <Start> "CompletionItems" 
+10:34:13.975 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:34:13.978 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:34:14.016 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=37ms
+10:34:17.093 |V| CompletionHost                | <Start> "CompletionItems" 
+10:34:17.119 |V| CompletionHost                | <Finish> "CompletionItems"  time=26ms
+10:34:17.120 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:34:17.127 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+10:34:46.893 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:34:46.905 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=11ms
+10:34:46.933 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:34:46.950 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=17ms
+10:34:46.965 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:34:46.970 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=5ms
+10:34:46.998 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:34:47.005 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=7ms
+10:34:49.171 |V| CompletionHost                | <Start> "CompletionItems" 
+10:34:49.215 |V| CompletionHost                | <Finish> "CompletionItems"  time=43ms
+10:34:49.215 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:34:49.260 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=44ms
+10:34:55.495 |V| CompletionHost                | <Start> "CompletionItems" 
+10:34:55.505 |V| CompletionHost                | <Finish> "CompletionItems"  time=9ms
+10:35:13.637 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:13.685 |V| CompletionHost                | <Finish> "CompletionItems"  time=48ms
+10:35:13.688 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:13.727 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=38ms
+10:35:16.856 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:16.876 |V| CompletionHost                | <Finish> "CompletionItems"  time=20ms
+10:35:16.877 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:16.886 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=9ms
+10:35:25.160 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:25.203 |V| CompletionHost                | <Finish> "CompletionItems"  time=42ms
+10:35:25.206 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:25.249 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=42ms
+10:35:29.392 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:29.426 |V| CompletionHost                | <Finish> "CompletionItems"  time=33ms
+10:35:29.429 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:29.466 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=36ms
+10:35:43.142 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:35:43.144 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=2ms
+10:35:54.185 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:54.311 |V| CompletionHost                | <Finish> "CompletionItems"  time=125ms
+10:35:54.314 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:54.370 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=55ms
+10:35:55.723 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:55.759 |V| CompletionHost                | <Finish> "CompletionItems"  time=36ms
+10:35:55.763 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:55.792 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=29ms
+10:35:56.496 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:56.554 |V| CompletionHost                | <Finish> "CompletionItems"  time=58ms
+10:35:56.588 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:56.652 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=63ms
+10:35:57.587 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:57.622 |V| CompletionHost                | <Finish> "CompletionItems"  time=34ms
+10:35:57.625 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:57.654 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:35:58.337 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:58.409 |V| CompletionHost                | <Finish> "CompletionItems"  time=72ms
+10:35:58.435 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:58.483 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=48ms
+10:35:59.423 |V| CompletionHost                | <Start> "CompletionItems" 
+10:35:59.471 |V| CompletionHost                | <Finish> "CompletionItems"  time=47ms
+10:35:59.474 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:35:59.503 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:36:00.122 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:00.186 |V| CompletionHost                | <Finish> "CompletionItems"  time=63ms
+10:36:00.190 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:00.237 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=46ms
+10:36:07.046 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:07.074 |V| CompletionHost                | <Finish> "CompletionItems"  time=28ms
+10:36:07.075 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:07.082 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:36:23.765 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:23.811 |V| CompletionHost                | <Finish> "CompletionItems"  time=45ms
+10:36:23.813 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:23.852 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=38ms
+10:36:25.548 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:25.591 |V| CompletionHost                | <Finish> "CompletionItems"  time=42ms
+10:36:25.595 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:25.632 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=36ms
+10:36:29.442 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:29.604 |V| CompletionHost                | <Finish> "CompletionItems"  time=161ms
+10:36:29.608 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:29.621 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=13ms
+10:36:36.485 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:36.513 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:36:36.514 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:36.522 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=8ms
+10:36:36.773 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:36:36.778 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=5ms
+10:36:38.436 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:38.504 |V| CompletionHost                | <Finish> "CompletionItems"  time=67ms
+10:36:38.507 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:38.551 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=44ms
+10:36:41.766 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:41.809 |V| CompletionHost                | <Finish> "CompletionItems"  time=43ms
+10:36:41.812 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:41.851 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=38ms
+10:36:44.728 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:44.753 |V| CompletionHost                | <Finish> "CompletionItems"  time=25ms
+10:36:44.753 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:44.764 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=10ms
+10:36:53.978 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:54.024 |V| CompletionHost                | <Finish> "CompletionItems"  time=45ms
+10:36:54.028 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:54.068 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=39ms
+10:36:54.877 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:54.925 |V| CompletionHost                | <Finish> "CompletionItems"  time=47ms
+10:36:54.946 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:55.054 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=107ms
+10:36:57.237 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:57.270 |V| CompletionHost                | <Finish> "CompletionItems"  time=32ms
+10:36:57.273 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:57.304 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=31ms
+10:36:58.498 |V| CompletionHost                | <Start> "CompletionItems" 
+10:36:58.529 |V| CompletionHost                | <Finish> "CompletionItems"  time=30ms
+10:36:58.535 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:36:58.569 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=33ms
+10:37:05.237 |V| CompletionHost                | <Start> "CompletionItems" 
+10:37:05.273 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:37:05.276 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:37:05.305 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:37:06.198 |V| CompletionHost                | <Start> "CompletionItems" 
+10:37:06.271 |V| CompletionHost                | <Finish> "CompletionItems"  time=73ms
+10:37:06.278 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:37:06.331 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=52ms
+10:37:07.338 |V| CompletionHost                | <Start> "CompletionItems" 
+10:37:07.360 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:37:07.361 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:37:07.365 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=4ms
+10:37:10.660 |V| CompletionHost                | <Start> "CompletionItems" 
+10:37:10.680 |V| CompletionHost                | <Finish> "CompletionItems"  time=20ms
+10:37:10.681 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:37:10.687 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:37:34.368 |V| CompletionHost                | <Start> "CompletionItems" 
+10:37:34.387 |V| CompletionHost                | <Finish> "CompletionItems"  time=19ms
+10:37:34.387 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:37:34.393 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:38:30.233 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:38:30.237 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=4ms
+10:38:45.569 |V| CompletionHost                | <Start> "CompletionItems" 
+10:38:45.611 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+10:38:45.614 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:38:45.658 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=44ms
+10:38:54.826 |V| CompletionHost                | <Start> "CompletionItems" 
+10:38:54.847 |V| CompletionHost                | <Finish> "CompletionItems"  time=20ms
+10:38:54.850 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:38:54.897 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=46ms
+10:39:06.248 |V| CompletionHost                | <Start> "CompletionItems" 
+10:39:06.297 |V| CompletionHost                | <Finish> "CompletionItems"  time=49ms
+10:39:06.311 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:39:06.411 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=100ms
+10:39:41.418 |V| CompletionHost                | <Start> "CompletionItems" 
+10:39:41.441 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:39:41.441 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:39:41.447 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:39:54.363 |V| CompletionHost                | <Start> "CompletionItems" 
+10:39:54.391 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:39:54.394 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:39:54.442 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=47ms
+10:40:00.540 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:00.558 |V| CompletionHost                | <Finish> "CompletionItems"  time=18ms
+10:40:00.559 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:00.563 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:40:20.693 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:20.751 |V| CompletionHost                | <Finish> "CompletionItems"  time=58ms
+10:40:20.754 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:20.780 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=25ms
+10:40:21.991 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:22.116 |V| CompletionHost                | <Finish> "CompletionItems"  time=123ms
+10:40:22.121 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:22.272 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=150ms
+10:40:23.110 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:23.151 |V| CompletionHost                | <Finish> "CompletionItems"  time=41ms
+10:40:23.156 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:23.182 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=26ms
+10:40:23.926 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:24.008 |V| CompletionHost                | <Finish> "CompletionItems"  time=81ms
+10:40:24.013 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:24.083 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=70ms
+10:40:26.052 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:26.076 |V| CompletionHost                | <Finish> "CompletionItems"  time=23ms
+10:40:26.079 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:26.107 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:40:26.934 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:26.999 |V| CompletionHost                | <Finish> "CompletionItems"  time=65ms
+10:40:27.005 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:27.058 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=52ms
+10:40:29.604 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:29.644 |V| CompletionHost                | <Finish> "CompletionItems"  time=39ms
+10:40:29.647 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:29.676 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:40:30.315 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:30.410 |V| CompletionHost                | <Finish> "CompletionItems"  time=94ms
+10:40:30.423 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:30.471 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=47ms
+10:40:32.697 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:32.733 |V| CompletionHost                | <Finish> "CompletionItems"  time=35ms
+10:40:32.734 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:32.740 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:40:34.852 |V| CompletionHost                | <Start> "CompletionItems" 
+10:40:34.874 |V| CompletionHost                | <Finish> "CompletionItems"  time=21ms
+10:40:34.875 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:40:34.879 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=4ms
+10:41:00.756 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:00.783 |V| CompletionHost                | <Finish> "CompletionItems"  time=27ms
+10:41:00.786 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:00.819 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=33ms
+10:41:03.586 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:03.610 |V| CompletionHost                | <Finish> "CompletionItems"  time=24ms
+10:41:03.611 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:03.619 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=8ms
+10:41:10.371 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:10.381 |V| CompletionHost                | <Finish> "CompletionItems"  time=9ms
+10:41:15.172 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:15.260 |V| CompletionHost                | <Finish> "CompletionItems"  time=87ms
+10:41:15.264 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:15.303 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=38ms
+10:41:20.363 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:20.414 |V| CompletionHost                | <Finish> "CompletionItems"  time=51ms
+10:41:20.418 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:20.461 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=42ms
+10:41:24.207 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:24.239 |V| CompletionHost                | <Finish> "CompletionItems"  time=32ms
+10:41:24.240 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:24.271 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=31ms
+10:41:25.655 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:25.689 |V| CompletionHost                | <Finish> "CompletionItems"  time=33ms
+10:41:25.690 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:25.775 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=85ms
+10:41:28.855 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:41:28.859 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=3ms
+10:41:28.870 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:28.908 |V| CompletionHost                | <Finish> "CompletionItems"  time=38ms
+10:41:28.910 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:28.955 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=44ms
+10:41:30.971 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:30.996 |V| CompletionHost                | <Finish> "CompletionItems"  time=25ms
+10:41:30.999 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:31.051 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=51ms
+10:41:46.928 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:47.011 |V| CompletionHost                | <Finish> "CompletionItems"  time=82ms
+10:41:47.012 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:47.018 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=6ms
+10:41:50.593 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:50.620 |V| CompletionHost                | <Finish> "CompletionItems"  time=26ms
+10:41:50.620 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:50.624 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=3ms
+10:41:56.706 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:56.753 |V| CompletionHost                | <Finish> "CompletionItems"  time=47ms
+10:41:56.765 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:56.775 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=9ms
+10:41:58.163 |V| CompletionHost                | <Start> "CompletionItems" 
+10:41:58.187 |V| CompletionHost                | <Finish> "CompletionItems"  time=23ms
+10:41:58.188 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:41:58.193 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=5ms
+10:41:59.316 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:41:59.387 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=69ms
+10:41:59.435 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:41:59.448 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=12ms
+10:42:00.623 |V| CompletionHost                | <Start> "CompletionItems" 
+10:42:00.624 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:42:00.654 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=30ms
+10:42:00.666 |V| CompletionHost                | <Finish> "CompletionItems"  time=42ms
+10:42:00.682 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:42:00.689 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+10:42:00.727 |I| RiderTextControlTypingHandlersHost| <Start> "Performance.TextControl.Type.AllContextsWithActions" 
+10:42:00.735 |I| RiderTextControlTypingHandlersHost| <Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=7ms
+10:42:07.810 |V| CompletionHost                | <Start> "CompletionItems" 
+10:42:07.826 |V| CompletionHost                | <Finish> "CompletionItems"  time=16ms
+10:42:07.826 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:42:07.831 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=4ms
+10:42:12.282 |V| CompletionHost                | <Start> "CompletionItems" 
+10:42:12.305 |V| CompletionHost                | <Finish> "CompletionItems"  time=22ms
+10:42:12.306 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:42:12.314 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+10:46:09.069 |V| CompletionHost                | <Start> "CompletionItems" 
+10:46:09.144 |V| CompletionHost                | <Finish> "CompletionItems"  time=75ms
+10:46:09.146 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:46:09.157 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=11ms
+10:46:18.075 |V| CompletionHost                | <Start> "CompletionItems" 
+10:46:18.119 |V| CompletionHost                | <Finish> "CompletionItems"  time=43ms
+10:46:18.122 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:46:18.157 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=35ms
+10:46:20.853 |V| CompletionHost                | <Start> "CompletionItems" 
+10:46:20.899 |V| CompletionHost                | <Finish> "CompletionItems"  time=45ms
+10:46:20.902 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:46:20.930 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=27ms
+10:46:22.666 |V| CompletionHost                | <Start> "CompletionItems" 
+10:46:22.703 |V| CompletionHost                | <Finish> "CompletionItems"  time=37ms
+10:46:22.707 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:46:22.772 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=64ms
+10:46:28.240 |V| CompletionHost                | <Start> "CompletionItems" 
+10:46:28.290 |V| CompletionHost                | <Finish> "CompletionItems"  time=50ms
+10:46:28.295 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:46:28.327 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=32ms
+10:46:44.521 |V| CompletionHost                | <Start> "CompletionItems" 
+10:46:44.580 |V| CompletionHost                | <Finish> "CompletionItems"  time=59ms
+10:46:44.584 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:46:44.637 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=53ms
+10:46:47.927 |V| CompletionHost                | <Start> "CompletionItems" 
+10:46:47.946 |V| CompletionHost                | <Finish> "CompletionItems"  time=19ms
+10:46:47.948 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:46:47.955 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms
+10:47:06.825 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:47:06.837 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=11ms
+10:47:11.107 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:47:11.109 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=2ms
+10:47:11.241 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:47:11.254 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=13ms
+10:47:11.330 |V| CacheJobService2              | <Start> "Job.UpdateProjectFilesList" #files=1
+10:47:11.334 |V| CacheJobService2              | <Finish> "Job.UpdateProjectFilesList" #files=1 time=4ms
+10:47:42.678 |V| CompletionHost                | <Start> "CompletionItems" 
+10:47:42.955 |V| CompletionHost                | <Finish> "CompletionItems"  time=277ms
+10:47:42.959 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:47:42.993 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=34ms
+10:47:46.315 |V| CompletionHost                | <Start> "CompletionItems" 
+10:47:46.346 |V| CompletionHost                | <Finish> "CompletionItems"  time=30ms
+10:47:46.349 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:47:46.384 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=34ms
+10:47:50.778 |V| CompletionHost                | <Start> "CompletionItems" 
+10:47:50.826 |V| CompletionHost                | <Finish> "CompletionItems"  time=47ms
+10:47:50.829 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:47:50.858 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=28ms
+10:47:59.579 |V| CompletionHost                | <Start> "CompletionItems" 
+10:47:59.631 |V| CompletionHost                | <Finish> "CompletionItems"  time=51ms
+10:47:59.633 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:47:59.702 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=69ms
+10:48:01.962 |V| CompletionHost                | <Start> "CompletionItems" 
+10:48:02.021 |V| CompletionHost                | <Finish> "CompletionItems"  time=58ms
+10:48:02.024 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:48:02.068 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=43ms
+10:48:04.430 |V| CompletionHost                | <Start> "CompletionItems" 
+10:48:04.448 |V| CompletionHost                | <Finish> "CompletionItems"  time=17ms
+10:48:04.449 |V| CompletionHost                | <Start> "CompletionItems-Advanced" 
+10:48:04.457 |V| CompletionHost                | <Finish> "CompletionItems-Advanced"  time=7ms

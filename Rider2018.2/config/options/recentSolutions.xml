@@ -1,0 +1,31 @@
+<application>
+  <component name="RiderRecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/C#/Object-oriented-programming/labs/labs.sln" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/C#/Object-oriented-programming/labs/labs.sln" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/C#/Object-oriented-programming/labs/labs.sln" />
+    <option name="pid" value="19376" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/C#/Object-oriented-programming/labs/labs.sln">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="RD-182.4231.496" />
+              <option name="productionCode" value="RD" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1542185292867" />
+              <option name="buildTimestamp" value="1536826829052" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,34 @@
+Warning: No JetBrains.ExternalAnnotations packages found in the host ReSharperHost182
+Warning: Can't find external annotations for Default
+Warning: PersistentIndexManager was requested about missing file: Mather.cs
+Warning: PersistentIndexManager was requested about missing file: Mather.cs
+Warning: PersistentIndexManager was requested about missing file: Mather.cs
+Warning: PersistentIndexManager was requested about missing file: Mather.cs
+Warning: Received an not calculated tooltip for id: "ReSharper Error Underlined", range:(784 - 785) text: "
+"
+Warning: Fire events
+Warning: Fire events
+Warning: Fire events
+Warning: Requesting tooltip for removed highlighter. id: 120
+Warning: Received an not calculated tooltip for id: "ReSharper Mutable Local Variable Identifier", range:(679 - 686) text: "fastest"
+10:48:17.693 |E| --LOGLOG--                     | WatchParentPid:19376:3         | System.Exception: Parent process PID:19376 has quit, killing ourselves via Process.Kill
+
+Parent process PID:19376 has quit, killing ourselves via Process.Kill
+
+--- EXCEPTION #1/1 [LoggerException]
+Message = “Parent process PID:19376 has quit, killing ourselves via Process.Kill”
+ExceptionPath = Root
+ClassName = JetBrains.Util.LoggerException
+HResult = COR_E_APPLICATION=80131600
+StackTraceString = “
+  at JetBrains.Util.LoggerBase.Log (JetBrains.Util.LoggingLevel level, System.String message, System.Exception ex) [0x00000] in <7601da3a4dcd43c59b2b446564d04592>:0 
+    at JetBrains.Util.Logging.Log+SwitchingLog.JetBrains.Util.Logging.ILog.Log (JetBrains.Util.LoggingLevel level, System.String message, System.Exception exception) [0x00000] in <c4ace85bd9174bc7abcfb1db986b0766>:0 
+    at JetBrains.Util.Logging.LogEx.Error (JetBrains.Util.Logging.ILog this, System.String message) [0x00000] in <c4ace85bd9174bc7abcfb1db986b0766>:0 
+    at JetBrains.Util.ProcessWatchdog+<>c__DisplayClass3_0.<StartWatchdogForPid>b__0 () [0x00000] in <c4ace85bd9174bc7abcfb1db986b0766>:0 
+    at System.Threading.ThreadHelper.ThreadStart_Context (System.Object state) [0x00000] in <9fe5943cea5a431b93ddb78ef9567e8f>:0 
+    at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <9fe5943cea5a431b93ddb78ef9567e8f>:0 
+    at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <9fe5943cea5a431b93ddb78ef9567e8f>:0 
+    at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state) [0x00000] in <9fe5943cea5a431b93ddb78ef9567e8f>:0 
+    at System.Threading.ThreadHelper.ThreadStart () [0x00000] in <9fe5943cea5a431b93ddb78ef9567e8f>:0
+”
+

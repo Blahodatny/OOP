@@ -1,0 +1,1500 @@
+ReSharper Host Entry Point...
+09:46:35.691 |I| ProcessWatchdog                | WatchParentPid:19376:3         | Monitoring parent process PID:19376
+09:46:39.445 |I| --LOGLOG:Logger--              | <unnamed-thread>:1             | Initializing LogManager with path=/home/dima/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.496/bin/backend-log.xml, subconfiguration=Debug
+
+09:46:39.546 |I| --LOGLOG:Logger--              | <unnamed-thread>:1             | Reconfigure logger, ReadBinary=[False], Subconf=[Debug], Xml=/home/dima/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.496/bin/backend-log.xml
+
+09:46:42.852 |V| --LOGLOG--                     | <unnamed-thread>:1             | LogLog.SeverityFilter: INFO -> VERBOSE
+
+09:46:43.310 |V| --LOGLOG:UnsafeWriter--        | <unnamed-thread>:1             | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+JetBrains ReSharper IDE Host 2018.2.3 
+Running in 64-bit mode, .NET runtime 4.0.30319.42000 under Unix 4.18.0.10
+09:46:43.849 |I| --LOGLOG:Logger--              | <unnamed-thread>:1             | Added omnipresent logger with type [JetBrains.Util.Console.ConsoleLoggerListener] and level [INFO]
+
+09:47:14.860 |V| --LOGLOG:UnsafeWriter--        | StaExecutor:16                 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+09:47:15.831 |V| --LOGLOG:UnsafeWriter--        | FileSystemTrackerCommit:22     | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+09:47:15.835 |V| --LOGLOG:UnsafeWriter--        | StaExecutor:24                 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+09:47:16.638 |V| --LOGLOG:UnsafeWriter--        | ClientSocket-MainWire-Receiver:27 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Starting ReSharper Host Port=46487
+09:47:17.307 |I| --LOGLOG:Logger--              | <unnamed-thread>:1             | Removed omnipresent logger with type [JetBrains.Util.Console.ConsoleLoggerListener] and level [INFO]
+
+09:47:17.307 |I| --LOGLOG:Logger--              | <unnamed-thread>:1             | Added omnipresent logger with type [JetBrains.ReSharperAutomationTools.CommandLine.Common.Console.Util.Logging.ConsoleToolLogger] and level [INFO]
+
+09:47:17.314 |I| --LOGLOG:Logger--              | <unnamed-thread>:1             | Added omnipresent logger with type [JetBrains.ReSharper.Host.Features.Loggers.LoggerHost] and level [INFO]
+
+09:47:25.708 |V| --LOGLOG:UnsafeWriter--        | UsageDbManager:29              | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+09:47:33.320 |V| --LOGLOG:UnsafeWriter--        | JetPool(S) #1:17               | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+ShellHost created, subscribe for initializationStrategy
+ShellHost is ready
+Received request for Highlighter Registry transferring to frontend
+Collected 261 different highlighters types, sending to frontend
+Sending 'General (Rider)' Highlighter Color Settings Page
+Sending 'Regexp (Rider)' Highlighter Color Settings Page
+Sending 'Stacktrace' Highlighter Color Settings Page
+Sending 'ASP.NET' Highlighter Color Settings Page
+Sending 'CSS (Rider)' Highlighter Color Settings Page
+Sending 'HTML (Rider)' Highlighter Color Settings Page
+Sending 'JavaScript (in Razor)' Highlighter Color Settings Page
+Sending 'Cg/HLSL' Highlighter Color Settings Page
+Sending 'ShaderLab' Highlighter Color Settings Page
+Sending 'TypeScript (Rider)' Highlighter Color Settings Page
+09:47:40.009 |I| --LOGLOG:Logger--              | <unnamed-thread>:1             | Apply Transformation >> Enable RD trace categories: <len=0>
+
+Open solution '/home/dima/C#/Object-oriented-programming/labs/labs.sln'
+Set HasBackedSolution = true
+Execute task [LoadSolutionFromCache] 'Load Solution From Cache'
+Solution 'labs' was NOT loaded from caches
+Pause tasks InitialSynchronizeSolution: Wait for solution initializing
+Execute task [InitialSynchronizeSolution] 'Wait for solution initializing'
+09:47:51.987 |V| --LOGLOG:UnsafeWriter--        | ServerSocket-MsBuild [ProjectModel] Process-Receiver:43 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+09:47:52.168 |V| --LOGLOG:UnsafeWriter--        | MsBuild [ProjectModel] Protocol Thread:41 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Resume tasks InitialSynchronizeSolution: Wait for solution initializing
+Execute task [InitialSynchronizeSolution] 'Update project model for project 'lab1''
+Execute task [InitialSynchronizeSolution] 'Update project model for project 'lab2''
+Execute task [InitialSynchronizeSolution] 'Update project model for project 'lab3''
+Execute task [InitialSynchronizeSolution] 'Update project model for project 'lab4''
+Execute task [InitialSynchronizeSolution] 'Validate project model'
+Execute task [SolutionContainer] 'Create Solution Container Task'
+09:48:17.453 |V| --LOGLOG:UnsafeWriter--        | NuGetThread:46                 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+not requested
+not requested at all
+!buildRequested
+New current runner JetBrains.ReSharper.Host.Features.SolutionBuilder.ConsoleRunner.MsBuildExeBuildRunner
+Runner isReady = true
+!myShouldBuild
+Execute task [SolutionContainer] 'Open project instance Miscellaneous Files'
+Execute task [SolutionContainer] 'Open project instance &'
+Execute task [SolutionContainer] 'Open project instance lab1'
+09:48:22.448 |V| --LOGLOG:UnsafeWriter--        | JetPool(S) #2:18               | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Execute task [SolutionContainer] 'Open project instance lab2'
+Execute task [SolutionContainer] 'Open project instance lab3'
+Execute task [SolutionContainer] 'Open project instance lab4'
+Execute task [SolutionContainer] 'Initializing PsiFilesCache buckets'
+Execute task [FireProjectItemsAdded] 'AssemblyInfoCache::Load'
+Execute task [FireProjectItemsAdded] 'Raise All Projects Added Task'
+Execute task [FireProjectItemsAdded] 'JsxInPlainJsSetting.Init'
+Execute task [FireAssembliesAdded] 'Fire assemblies added'
+Execute task [PreparePsiModules] 'JavaScriptExternalFiles.Activate'
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs, ee.Id : 0
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs and pmid : 0
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs textControl
+Execute task [PreparePsiModules] 'Finish project model updating'
+Execute task [PreparePsiModules] 'JetBrains.ReSharper.Psi.Web.Impl.PsiModules.WebAssemblyReferenceFactoryAllow resolve references'
+Execute task [BeforeKickOff] 'Project Model Ready'
+Execute task [KickOff] 'Kick off'
+Execute task [StartPsi] 'Loading persistent file indices'
+Execute task [StartPsi] 'Start loading caches'
+Execute task [StartPsi] 'DaemonEnablePolicy'
+Execute task [RefreshBuildSettings] 'Sync FileSystemTracker'
+Execute task [Done] 'Wait for FileSystemTracker sync'
+09:48:27.197 |V| --LOGLOG:UnsafeWriter--        | CacheJobService:48             | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs, ee.Id : 0
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs and pmid : 0
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs textControl
+Execute task [Done] 'Fire solution ready'
+Execute task [Done] 'SolutionBuilderStartAnalyzeChecker'
+Execute task [Done] 'Subscribe to SuspendHardOperations'
+Execute task [Done] 'Cleanup persistent caches'
+Execute task [Done] 'PsiModuleAttributeCache::Schedule Updates'
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs, ee.Id : 107
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs and pmid : 107
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs textControl
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs, ee.Id : 108
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs and pmid : 108
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs textControl
+Execute task [Done] 'Ready for caches saving'
+Execute task [Done] 'FileDependenciesSynchronizer'
+Execute task [Done] 'Start restore NuGet packages'
+Execute task [Done] 'Sync project view'
+Execute task [Done] 'Checking for Unity projects'
+Execute task [AfterDone] 'Complete solution loading'
+Finish solution opening 'labs'
+09:48:41.869 |V| --LOGLOG:UnsafeWriter--        | SolutionBuilderControllerPrototype_Executor:50 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+[SolutionLifecycleHost] Set 'Ready' command
+09:48:43.955 |V| --LOGLOG:UnsafeWriter--        | DaemonThread:49                | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+09:48:44.111 |V| --LOGLOG:UnsafeWriter--        | JetPool(L) #2:20               | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Initial unit-test exploration started
+09:48:46.743 |V| --LOGLOG:UnsafeWriter--        | Background Unit-Test Exploration:55 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Initial unit-test exploration completed
+09:48:48.753 |V| --LOGLOG:UnsafeWriter--        | <unnamed-thread>:1             | Realloc UnsafeWriter, current: 1,048,576 bytes, new: 2,097,152
+
+09:48:48.760 |V| --LOGLOG:UnsafeWriter--        | <unnamed-thread>:1             | Realloc UnsafeWriter, current: 2,097,152 bytes, new: 1,048,576
+
+09:48:49.812 |V| --LOGLOG:UnsafeWriter--        | JetPool(L) #1:19               | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Detected C# Interactive tool path from MonoRuntimeDetector: /usr/bin/csi
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs, ee.Id : 9
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs and pmid : 9
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs textControl
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs path from openedTextControls collection
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs, ee.Id : 10
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs and pmid : 10
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs, ee.Id : 12
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs and pmid : 12
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs, ee.Id : 26
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs and pmid : 26
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RefactorThis' action at 1 time.
+'RefactorThis' Action execution was done.
+'RefactorThis' Action execution session is terminated (by frontend possibly).
+<< (Opening) Loading sessions from persistent storage
+<< (Closing) Loading sessions from persistent storage
+Started 'RefactorThis' action at 1 time.
+'RefactorThis' Action execution was failed.
+Started 'RefactorThis' action at 1 time.
+'RefactorThis' Action execution was done.
+'RefactorThis' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=108ms
+Sending auto popup signal DoNotShow, 2
+strategies.Count == 0
+Started 'TextControl.Tab' action at 1 time.
+'TextControl.Tab' Action execution was done.
+'TextControl.Tab' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+Sending auto popup signal DoNotShow, 4
+strategies.Count == 0
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=148ms
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+OpenStream /home/dima/.local/share/JetBrains/Toolbox/apps/Rider/ch-0/182.4231.496/lib/ReSharperHost/Annotations/net20/JetBrains.Annotations.dll, mode = Open, access = Read
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs path from openedTextControls collection
+10:19:22.842 |V| --LOGLOG:UnsafeWriter--        | Thread Pool Worker:71          | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs, ee.Id : 10
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs and pmid : 10
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderReformatCode' action at 1 time.
+'RiderReformatCode' Action execution was done.
+'RiderReformatCode' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs, ee.Id : 9
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs and pmid : 9
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs textControl
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs path from openedTextControls collection
+10:20:02.068 |V| --LOGLOG:UnsafeWriter--        | Thread Pool Worker:44          | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs, ee.Id : 10
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs and pmid : 10
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs, ee.Id : 9
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs and pmid : 9
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs, ee.Id : 12
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs and pmid : 12
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs path from openedTextControls collection
+10:23:28.309 |V| --LOGLOG:UnsafeWriter--        | Thread Pool Worker:67          | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs, ee.Id : 12
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs and pmid : 12
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs, ee.Id : 10
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs and pmid : 10
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=128ms
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=41ms
+Sending auto popup signal DoNotShow, 6
+strategies.Count == 0
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=108ms
+Sending auto popup signal DoNotShow, 7
+strategies.Count == 0
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=21ms
+Sending auto popup signal DoNotShow, 8
+strategies.Count == 0
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=56ms
+Sending auto popup signal DoNotShow, 9
+strategies.Count == 0
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=31ms
+Sending auto popup signal DoNotShow, 10
+strategies.Count == 0
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=42ms
+Sending auto popup signal DoNotShow, 11
+strategies.Count == 0
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=19ms
+Sending auto popup signal DoNotShow, 12
+strategies.Count == 0
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=67ms
+Sending auto popup signal DoNotShow, 13
+strategies.Count == 0
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=24ms
+Sending auto popup signal DoNotShow, 14
+strategies.Count == 0
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=46ms
+Sending auto popup signal DoNotShow, 15
+strategies.Count == 0
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=20ms
+Sending auto popup signal DoNotShow, 16
+strategies.Count == 0
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=7ms
+Sending auto popup signal DoNotShow, 17
+strategies.Count == 0
+Started 'TextControl.Backspace' action at 1 time.
+'TextControl.Backspace' Action execution was done.
+'TextControl.Backspace' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs, ee.Id : 13
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs and pmid : 13
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs, ee.Id : 14
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs and pmid : 14
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs, ee.Id : 26
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs and pmid : 26
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs, ee.Id : 27
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs and pmid : 27
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Enumerations/EAction.cs, ee.Id : 31
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Enumerations/EAction.cs and pmid : 31
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Enumerations/EAction.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISportsmanProperties.cs, ee.Id : 33
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISportsmanProperties.cs and pmid : 33
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISportsmanProperties.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerActions.cs, ee.Id : 34
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerActions.cs and pmid : 34
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerActions.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerEvents.cs, ee.Id : 35
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerEvents.cs and pmid : 35
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerEvents.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs, ee.Id : 37
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs and pmid : 37
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs textControl
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs path from openedTextControls collection
+10:28:33.152 |V| --LOGLOG:UnsafeWriter--        | Thread Pool Worker:63          | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs, ee.Id : 38
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs and pmid : 38
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs textControl
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs path from openedTextControls collection
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs, ee.Id : 39
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs and pmid : 39
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs textControl
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs path from openedTextControls collection
+10:29:08.447 |V| --LOGLOG:UnsafeWriter--        | Thread Pool Worker:66          | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Enumerations/EAction.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Enumerations/EAction.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISportsmanProperties.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISportsmanProperties.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerActions.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerActions.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerEvents.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Interfaces/ISwimmerEvents.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs, ee.Id : 39
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs and pmid : 39
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs, ee.Id : 27
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs and pmid : 27
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs textControl
+10:30:43.645 |V| --LOGLOG:UnsafeWriter--        | ServerSocket-BuildHost-Receiver:112 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+10:31:03.628 |V| --LOGLOG:UnsafeWriter--        | ServerSocket-BuildHost-Receiver:114 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+10:31:04.186 |V| --LOGLOG:UnsafeWriter--        | Thread Pool Worker:57          | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+10:31:07.064 |V| --LOGLOG:UnsafeWriter--        | ServerSocket-BuildHost-Receiver:116 | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs, ee.Id : 27
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs and pmid : 27
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs, ee.Id : 26
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs and pmid : 26
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs, ee.Id : 13
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs and pmid : 13
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs, ee.Id : 14
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs and pmid : 14
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs, ee.Id : 12
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs and pmid : 12
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs, ee.Id : 10
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs and pmid : 10
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs, ee.Id : 9
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs and pmid : 9
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs textControl
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Program.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Human.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Mathematician.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Kicker.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Sportsman.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Kind_of_activity/Scientist.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab1/Persons/Swimmer.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Program.cs, ee.Id : 56
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Program.cs and pmid : 56
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Program.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs, ee.Id : 37
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs and pmid : 37
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs, ee.Id : 38
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs and pmid : 38
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs, ee.Id : 39
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs and pmid : 39
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/ActionPerformedEventArgs.cs, ee.Id : 53
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/ActionPerformedEventArgs.cs and pmid : 53
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/ActionPerformedEventArgs.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/ActionPerformedEventArgs.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/ActionPerformedEventArgs.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/ActionPerformedEventArgs.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/BaseAbstractClass.cs, ee.Id : 54
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/BaseAbstractClass.cs and pmid : 54
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/BaseAbstractClass.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/BaseAbstractClass.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab2/InvalidSwimSpeedExc.cs, ee.Id : 55
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab2/InvalidSwimSpeedExc.cs and pmid : 55
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab2/InvalidSwimSpeedExc.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/InvalidSwimSpeedExc.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab2/Program.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianOperations.cs, ee.Id : 60
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianOperations.cs and pmid : 60
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianOperations.cs textControl
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Program.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Program.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/ActionPerformedHandler.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Person.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/Persons/Swimmer.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/ActionPerformedEventArgs.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/ActionPerformedEventArgs.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/BaseAbstractClass.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/BaseAbstractClass.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab2/InvalidSwimSpeedExc.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab2/InvalidSwimSpeedExc.cs path from openedTextControls collection
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianProperties.cs, ee.Id : 61
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianProperties.cs and pmid : 61
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianProperties.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs, ee.Id : 64
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs and pmid : 64
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs, ee.Id : 66
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs and pmid : 66
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianProperties.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianProperties.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianOperations.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Interfaces/IMathematicianOperations.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs, ee.Id : 64
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs and pmid : 64
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs, ee.Id : 66
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs and pmid : 66
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/OperationDelegate.cs, ee.Id : 67
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/OperationDelegate.cs and pmid : 67
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/OperationDelegate.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_lambda_expression/Mathematician.cs, ee.Id : 69
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_lambda_expression/Mathematician.cs and pmid : 69
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_lambda_expression/Mathematician.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_lambda_expression/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_lambda_expression/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs, ee.Id : 70
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs and pmid : 70
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'Rename' action at 1 time.
+'Rename' Action execution was done.
+'Rename' Action execution session is terminated (by frontend possibly).
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs
+OpenStream /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs, mode = Open, access = Read
+OpenStream /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs, mode = Create, access = ReadWrite
+document with moniker /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs should be saved with LF line separators
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs
+OpenStream /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs, mode = Open, access = Read
+OpenStream /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs, mode = Create, access = ReadWrite
+document with moniker /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs should be saved with LF line separators
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs, ee.Id : 71
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs and pmid : 71
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs, ee.Id : 94
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs and pmid : 94
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'Rename' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'Rename' Action execution was done.
+'Rename' Action execution session is terminated (by frontend possibly).
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+strategies.Count > 0
+Sending auto popup signal Show, 19
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=69ms
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+strategies.Count > 0
+Sending auto popup signal Show, 21
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=12ms
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+strategies.Count > 0
+Sending auto popup signal Show, 23
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=30ms
+<Start> "Performance.TextControl.Type.AllContextsWithActions" 
+strategies.Count > 0
+Sending auto popup signal Show, 25
+<Finish> "Performance.TextControl.Type.AllContextsWithActions"  time=7ms
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/JSON/Json.cs, ee.Id : 76
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/JSON/Json.cs and pmid : 76
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/JSON/Json.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/XML/Xml.cs, ee.Id : 78
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/XML/Xml.cs and pmid : 78
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/XML/Xml.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/Mathematician.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_anonymous_methods/Mathematician.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_lambda_expression/Mathematician.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_lambda_expression/Mathematician.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/MathematicianExt.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/JSON/Json.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/JSON/Json.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/XML/Xml.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Serialization/XML/Xml.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Program.cs path from openedTextControls collection
+10:47:11.128 |V| --LOGLOG:UnsafeWriter--        | Thread Pool Worker:65          | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/OperationDelegate.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/_delegate/OperationDelegate.cs path from openedTextControls collection
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs, ee.Id : 70
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs and pmid : 70
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs textControl
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs, ee.Id : 107
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs and pmid : 107
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Viewing textControl. ee.Path : /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs, ee.Id : 108
+Registering textControl with path /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs and pmid : 108
+Subscribing for /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs textControl
+Started 'RiderAltEnter' action at 1 time.
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+Started 'RiderAltEnter' action at 1 time.
+[UnixFileSystemInteraction] Set File System Write Handler to DelegateToProtocolHandler. Thread: :1
+Trying to save document /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs
+[UnixFileSystemInteraction] Setting File System Write Handler back to UnixFsWriteHandler
+'RiderAltEnter' Action execution was done.
+'RiderAltEnter' Action execution session is terminated (by frontend possibly).
+10:48:13.175 |I| --LOGLOG:Logger--              | <unnamed-thread>:1             | Detach Transformation >> Enable RD trace categories: <len=0>
+
+10:48:13.203 |I| --LOGLOG:Logger--              | <unnamed-thread>:1             | Removed omnipresent logger with type [JetBrains.ReSharper.Host.Features.Loggers.LoggerHost] and level [INFO]
+
+Protocol solution is going away...
+Try to close solution by lifetime termination (it wasn't closed already by signal)
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab4/Program.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab4/Mather.cs path from openedTextControls collection
+Closing TextControl /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs
+[TextControlCreator] Removing textControl with /home/dima/C#/Object-oriented-programming/labs/lab3/Persons/Mathematician.cs path from openedTextControls collection
+10:48:17.949 |V| --LOGLOG:UnsafeWriter--        | WatchParentPid:19376:3         | Created UnsafeWriter, initial alloc size: 1,048,576 bytes
+
