@@ -28,8 +28,7 @@ namespace lab3.Persons._anonymous_methods
 
         public double PerformOperation(string op, double x, double y)
         {
-            if (!_operations.ContainsKey(op))
-                throw new ArgumentException($"Operation {op} is invalid!!!");
+            if (!_operations.ContainsKey(op)) throw new ArgumentException($"Operation {op} is invalid!!!");
             return _operations[op](x, y);
         }
     }

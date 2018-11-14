@@ -15,40 +15,20 @@ namespace lab3.Persons._delegate
             Attention = attention;
             _operations = new Dictionary<string, OperationDelegate>
             {
-                {"+", DoAddition},
-                {"-", DoSubtraction},
-                {"*", DoMultiplication},
-                {"/", DoDivision}
+                {"+", DoAddition}, {"-", DoSubtraction}, {"*", DoMultiplication}, {"/", DoDivision}
             };
         }
 
         public int ComputingSpeed { get; set; }
         public int Attention { get; set; }
-
-        public double DoDivision(double x, double y)
-        {
-            return x / y;
-        }
-
-        public double DoMultiplication(double x, double y)
-        {
-            return x * y;
-        }
-
-        public double DoSubtraction(double x, double y)
-        {
-            return x - y;
-        }
-
-        public double DoAddition(double x, double y)
-        {
-            return x + y;
-        }
+        public double DoDivision(double x, double y) => x / y;
+        public double DoMultiplication(double x, double y) => x * y;
+        public double DoSubtraction(double x, double y) => x - y;
+        public double DoAddition(double x, double y) => x + y;
 
         public double PerformOperation(string op, double x, double y)
         {
-            if (!_operations.ContainsKey(op))
-                throw new ArgumentException($"Operation {op} is invalid!!!");
+            if (!_operations.ContainsKey(op)) throw new ArgumentException($"Operation {op} is invalid!!!");
             return _operations[op](x, y);
         }
     }

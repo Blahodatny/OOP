@@ -43,8 +43,8 @@ namespace lab1
         {
             try
             {
-                Console.WriteLine("Trying to load image from a file: " +
-                                  Directory.GetCurrentDirectory() + "/Avatars/" + fileName + "...");
+                Console.WriteLine("Trying to load image from a file: " + Directory.GetCurrentDirectory() + "/Avatars/" +
+                                  fileName + "...");
                 return Image.FromFile(Directory.GetCurrentDirectory() + "/Avatars/" + fileName);
             }
             catch (Exception e)
@@ -65,10 +65,7 @@ namespace lab1
             Quantity++;
         }
 
-        private static void Error(string field)
-        {
-            throw new ArgumentException("The " + field + " is not valid!!!");
-        }
+        private static void Error(string field) => throw new ArgumentException("The " + field + " is not valid!!!");
 
         public double Weight
         {
@@ -127,15 +124,11 @@ namespace lab1
         // своего класса и без ссылки на какой-нибудь объект.
         public static int Quantity { get; private set; }
 
-        public virtual void ShowObject()
-        {
+        public virtual void ShowObject() =>
             Console.WriteLine(name + " has parameters: weight " + _weight + "; age " + _age);
-        }
 
-        public void ShowObject(string line)
-        {
+        public void ShowObject(string line) =>
             Console.WriteLine(name + " has parameters: weight " + _weight + "; age " + _age + ". And your line is:\n" +
                               line);
-        }
     }
 }

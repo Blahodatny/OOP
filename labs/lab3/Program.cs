@@ -14,15 +14,10 @@ namespace lab3
         {
             var mathematics = new ArrayList();
             var random = new Random();
-
-            for (var i = 1; i <= 10; i++)
-                mathematics.Add(new Mathematician(random.Next(0, 100)));
-
+            for (var i = 1; i <= 10; i++) mathematics.Add(new Mathematician(random.Next(0, 100)));
             mathematics.Sort();
-            foreach (Mathematician math in mathematics)
-                Console.WriteLine(math.ComputingSpeed);
+            foreach (Mathematician math in mathematics) Console.WriteLine(math.ComputingSpeed);
             Console.WriteLine("-------------");
-
             var mathes = new Mathes(new List<Mathematician>
             {
                 new Mathematician("FPM", "Dmytro", 1003, 32),
@@ -31,21 +26,15 @@ namespace lab3
                 new Mathematician("FL", "Polina", 456, 99),
                 new Mathematician("FMM", "Dasha", 476, 89)
             });
-
             Xml.XmlSerialization(mathes.Mathematicians, Directory.GetCurrentDirectory() + "/../../data/file.xml");
             Json.JsonSerialization(mathes.Mathematicians, Directory.GetCurrentDirectory() + "/../../data/file.json");
-
             var mathes1 =
                 Xml.XmlDeserialization<Mathematician>(Directory.GetCurrentDirectory() + "/../../data/file.xml");
-            foreach (var math in mathes1)
-                Console.WriteLine(math.Nickname + " " + math.Faculty);
-
+            foreach (var math in mathes1) Console.WriteLine(math.Nickname + " " + math.Faculty);
             Console.WriteLine("----------------");
-
             var mathes2 =
                 Json.JsonDeserialization<Mathematician>(Directory.GetCurrentDirectory() + "/../../data/file.json");
-            foreach (var math in mathes2)
-                Console.WriteLine(math.Nickname + " " + math.Faculty);
+            foreach (var math in mathes2) Console.WriteLine(math.Nickname + " " + math.Faculty);
         }
     }
 }

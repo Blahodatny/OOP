@@ -12,7 +12,6 @@ namespace lab2
             var swimmer1 = new Swimmer(80, "Swimming", 70);
             swimmer.ActionPerformed += swimmer1.CheckWorking;
             swimmer1.ActionPerformed += swimmer.CheckWorking;
-
             while (true)
             {
                 try
@@ -55,20 +54,17 @@ namespace lab2
                         case "Stay afloat":
                             swimmer.DoAction(time, EAction.StayAfloat);
                             break;
-                        case "Exit":
-                            return;
+                        case "Exit": return;
                         default:
                             Console.WriteLine("There is no such command!");
                             break;
                     }
                 }
-
                 catch (InvalidSwimSpeedExc e)
                 {
                     Console.WriteLine("Custom exception:" + e);
                     throw;
                 }
-
                 catch (Exception e)
                 {
                     Console.WriteLine(e);

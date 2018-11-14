@@ -12,10 +12,8 @@ namespace lab2.Persons
         private static int _overcomeDistance;
         private const int MaximalDistanceCanBeSwumAtOnce = 1000;
 
-        public Swimmer(int stamina, string kindOfSport, int swimmingSpeed) : base(stamina, kindOfSport)
-        {
+        public Swimmer(int stamina, string kindOfSport, int swimmingSpeed) : base(stamina, kindOfSport) =>
             SwimmingSpeed = swimmingSpeed;
-        }
 
         // Property implementation
         public int OvercomeDistance => _overcomeDistance;
@@ -34,7 +32,6 @@ namespace lab2.Persons
                     Console.WriteLine("Setting swimming speed to the swimmer...");
                     _swimmingSpeed = value;
                 }
-
                 else
                 {
                     throw new InvalidSwimSpeedExc("The value should be >= 0! && < 100");
@@ -42,7 +39,7 @@ namespace lab2.Persons
             }
         }
 
-        public string KindOfSport
+        public new string KindOfSport
         {
             get
             {
@@ -59,15 +56,10 @@ namespace lab2.Persons
         public event ActionPerformedHandler ActionPerformed;
         public event EventHandler ActionCompleted;
 
-        public void OnActionPerformed(int seconds, EAction action)
-        {
+        public void OnActionPerformed(int seconds, EAction action) =>
             ActionPerformed?.Invoke(this, new ActionPerformedEventArgs(seconds, action));
-        }
 
-        public void OnActionCompleted()
-        {
-            ActionCompleted?.Invoke(this, EventArgs.Empty);
-        }
+        public void OnActionCompleted() => ActionCompleted?.Invoke(this, EventArgs.Empty);
 
         public void DoAction(int seconds, EAction action)
         {
@@ -83,7 +75,6 @@ namespace lab2.Persons
                 Console.WriteLine("Done: overcome distance at the moment equals: " + _overcomeDistance);
                 OnActionPerformed(seconds, action);
             }
-
             else
             {
                 Console.WriteLine("Nothing can be performed. The swimmer is over.");
@@ -91,10 +82,8 @@ namespace lab2.Persons
             }
         }
 
-        public void CheckWorking(object sender, ActionPerformedEventArgs e)
-        {
+        public void CheckWorking(object sender, ActionPerformedEventArgs e) =>
             Console.WriteLine("Someone do action {0} during {1} seconds! NOW ", e.Action, e.Seconds);
-        }
     }
 }
 

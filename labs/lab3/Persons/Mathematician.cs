@@ -18,10 +18,7 @@ namespace lab3.Persons
             Attention = attention;
         }
 
-        public Mathematician(int computingSpeed)
-        {
-            ComputingSpeed = computingSpeed;
-        }
+        public Mathematician(int computingSpeed) => ComputingSpeed = computingSpeed;
 
         // Инкапсуляция поля (Encapsulate Field) - правило рефакторинга
         public string Faculty { get; set; }
@@ -35,10 +32,8 @@ namespace lab3.Persons
         {
             switch (obj)
             {
-                case null:
-                    return 1;
-                case Mathematician math:
-                    return ComputingSpeed.CompareTo(math.ComputingSpeed);
+                case null: return 1;
+                case Mathematician math: return ComputingSpeed.CompareTo(math.ComputingSpeed);
             }
 
             throw new ArgumentException("Object is not a Mathematician!!!");
@@ -50,17 +45,11 @@ namespace lab3.Persons
 
     public class Mathes : IEnumerable
     {
-        public Mathes(List<Mathematician> mathematicians)
-        {
-            Mathematicians = mathematicians;
-        }
-
+        public Mathes(List<Mathematician> mathematicians) => Mathematicians = mathematicians;
         public List<Mathematician> Mathematicians { get; }
 
 //        public int Count => _mathematicians.Count;
-
         public Mathematician this[int index] => Mathematicians[index];
-
         public Mathematician this[string name] => Mathematicians.Find(nm => nm.Nickname.Equals(name));
 
         // Если метод не вызывается в программе, то его следует удалить
@@ -69,15 +58,8 @@ namespace lab3.Persons
 //        public void Add(Mathematician mathematician) => _mathematicians.Add(mathematician);
 
         // Implementation for the GetEnumerator method
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
-
-        private MathesEnum GetEnumerator()
-        {
-            return new MathesEnum(Mathematicians);
-        }
+        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+        private MathesEnum GetEnumerator() => new MathesEnum(Mathematicians);
     }
 
     // When you implement IEnumerable, you must also implement IEnumerator
@@ -87,11 +69,7 @@ namespace lab3.Persons
 
         // Enumerators are positioned before the first element until the first MoveNext() call.
         private int _position = -1;
-
-        public MathesEnum(List<Mathematician> list)
-        {
-            _mathematicians = list;
-        }
+        public MathesEnum(List<Mathematician> list) => _mathematicians = list;
 
         public bool MoveNext()
         {
@@ -99,11 +77,7 @@ namespace lab3.Persons
             return _position < _mathematicians.Count;
         }
 
-        public void Reset()
-        {
-            _position = -1;
-        }
-
+        public void Reset() => _position = -1;
         object IEnumerator.Current => Current;
 
         private Mathematician Current

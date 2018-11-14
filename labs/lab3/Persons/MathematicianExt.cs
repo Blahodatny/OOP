@@ -13,10 +13,7 @@
             var fastest = mathes[0];
             foreach (Mathematician math in mathes)
             {
-                if (math.ComputingSpeed > fastest.ComputingSpeed)
-                {
-                    fastest = math;
-                }
+                if (math.ComputingSpeed > fastest.ComputingSpeed) fastest = math;
             }
 
             return fastest;
@@ -26,16 +23,16 @@
         // Роберт Мартин "Чистый код" стр. 349
         public static Mathematician GetMostAttentiveMathematician(this Mathes mathes)
         {
-            var atten = mathes[mathes[0].Nickname];
+            var attentive = mathes[mathes[0].Nickname];
             foreach (Mathematician math in mathes)
             {
-                if (math.Attention > atten.Attention)
+                if (math.Attention > attentive.Attention)
                 {
-                    atten = math;
+                    attentive = math;
                 }
             }
 
-            return atten;
+            return attentive;
         }
     }
 }

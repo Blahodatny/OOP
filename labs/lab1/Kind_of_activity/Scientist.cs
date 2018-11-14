@@ -39,8 +39,7 @@ namespace lab1.Kind_of_activity
             _faculty = faculty;
         }
 
-        public override void ShowObject() => Console.WriteLine("Scientist: " +
-                                                               name + " has parameters: academic rank " +
-                                                               _academicRank + "; faculty " + _faculty);
+        public override void ShowObject() => Console.WriteLine(
+            "Scientist: " + name + " has parameters: academic rank " + _academicRank + "; faculty " + _faculty);
     }
 }

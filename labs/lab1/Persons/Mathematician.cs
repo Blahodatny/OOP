@@ -26,7 +26,6 @@ namespace lab1.Persons
         }
 
         public int ComputingSpeed { get; }
-
         public int Attention { get; }
     }
 }

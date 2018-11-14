@@ -9,10 +9,7 @@ namespace lab2
         {
         }
 
-        public InvalidSwimSpeedExc(string message) : base(message)
-        {
-            Console.Error.WriteLine(message);
-        }
+        public InvalidSwimSpeedExc(string message) : base(message) => Console.Error.WriteLine(message);
 
         public InvalidSwimSpeedExc(string message, Exception innerException) : base(message, innerException)
         {

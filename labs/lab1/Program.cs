@@ -14,12 +14,7 @@ namespace lab1
             human1.ShowObject();
 
             // Creating second object
-            var human2 = new Human
-            {
-                Weight = 67.45,
-                Age = 78,
-                Name = "Victoria"
-            };
+            var human2 = new Human {Weight = 67.45, Age = 78, Name = "Victoria"};
             human2.ShowObject("Hello, I am Dima!!!");
 
             // Checking static parameters of Human class

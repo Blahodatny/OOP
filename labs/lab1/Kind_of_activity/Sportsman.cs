@@ -32,8 +32,8 @@ namespace lab1.Kind_of_activity
             KindOfSport = kindOfSport;
         }
 
-        public override void ShowObject() =>
-            Console.WriteLine("Sportsman: " + name + " has parameters: kind of sport " + KindOfSport + "; stamina " +
-                              _stamina);
+        public override void ShowObject() => Console.WriteLine("Sportsman: " +
+                                                               name + " has parameters: kind of sport " + KindOfSport +
+                                                               "; stamina " + _stamina);
     }
 }

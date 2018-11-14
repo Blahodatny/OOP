@@ -11,8 +11,8 @@ namespace lab2.Persons
         {
             try
             {
-                Console.WriteLine("Trying to load image from a file: " +
-                                  Directory.GetCurrentDirectory() + "/Avatars/" + fileName + "...");
+                Console.WriteLine("Trying to load image from a file: " + Directory.GetCurrentDirectory() + "/Avatars/" +
+                                  fileName + "...");
                 return Image.FromFile(Directory.GetCurrentDirectory() + "/Avatars/" + fileName);
             }
             catch (Exception e)
@@ -22,10 +22,7 @@ namespace lab2.Persons
             }
         }
 
-        protected override void Error(string field)
-        {
-            throw new ArgumentException("The " + field + " is not valid!!!");
-        }
+        protected override void Error(string field) => throw new ArgumentException("The " + field + " is not valid!!!");
 
         public override double Weight
         {
@@ -86,15 +83,10 @@ namespace lab2.Persons
             set => _image = value;
         }
 
-        public override void ShowObject()
-        {
+        public override void ShowObject() =>
             Console.WriteLine(_name + " has parameters: weight " + _weight + "; age " + _age);
-        }
 
-        public override void ShowObject(string line)
-        {
-            Console.WriteLine(_name + " has parameters: weight " + _weight + "; age " + _age + ". And your line is:\n" +
-                              line);
-        }
+        public override void ShowObject(string line) => Console.WriteLine(
+            _name + " has parameters: weight " + _weight + "; age " + _age + ". And your line is:\n" + line);
     }
 }

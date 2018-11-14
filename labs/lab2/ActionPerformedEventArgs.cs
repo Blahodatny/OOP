@@ -12,7 +12,6 @@ namespace lab2
         }
 
         public int Seconds { get; }
-
         public EAction Action { get; }
     }
 }
